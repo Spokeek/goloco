@@ -1,8 +1,8 @@
-Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
+Shader "Hidden/Locked/.poiyomi/Poiyomi Toon/d4f03aad48dfee84d800085f5a177e07"
 {
 	Properties
 	{
-		[HideInInspector] shader_master_label ("<color=#E75898ff>Poiyomi 9.1.11</color>", Float) = 0
+		[HideInInspector] shader_master_label ("<color=#E75898ff>Poiyomi 9.0.61</color>", Float) = 0
 		[HideInInspector] shader_is_using_thry_editor ("", Float) = 0
 		[HideInInspector] shader_locale ("0db0b86376c3dca4b9a6828ef8615fe0", Float) = 0
 		[HideInInspector] footer_youtube ("{texture:{name:icon-youtube,height:16},action:{type:URL,data:https://www.youtube.com/poiyomi},hover:YOUTUBE}", Float) = 0
@@ -59,11 +59,11 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)] _BumpMapUV ("UV", Int) = 0
 		[HideInInspector]_BumpScale ("Intensity", Range(0, 10)) = 1
 		[HideInInspector][ToggleUI]_BumpMapStochastic ("Stochastic Sampling", Float) = 0
-		[sRGBWarning]_AlphaMask ("Alpha Map--{reference_properties:[_AlphaMaskPan, _AlphaMaskUV, _AlphaMaskInvert, _MainAlphaMaskMode, _AlphaMaskScale, _AlphaMaskValue], alts:[_AlphaMap]}", 2D) = "white" { }
+		[sRGBWarning]_AlphaMask ("Alpha Map--{reference_properties:[_AlphaMaskPan, _AlphaMaskUV, _AlphaMaskInvert, _MainAlphaMaskMode, _AlphaMaskBlendStrength, _AlphaMaskValue], alts:[_AlphaMap]}", 2D) = "white" { }
 		[HideInInspector][Vector2]_AlphaMaskPan ("Panning", Vector) = (0, 0, 0, 0)
 		[HideInInspector][ThryWideEnum(UV0, 0, UV1, 1, UV2, 2, UV3, 3, Panosphere, 4, World Pos, 5, Local Pos, 8, Polar UV, 6, Distorted UV, 7)] _AlphaMaskUV ("UV", Int) = 0
 		[HideInInspector][ThryWideEnum(Off, 0, Replace, 1, Multiply, 2, Add, 3, Subtract, 4)]_MainAlphaMaskMode ("Blend Mode", Int) = 2
-		[HideInInspector]_AlphaMaskScale ("Blend Strength", Float) = 1
+		[HideInInspector]_AlphaMaskBlendStrength ("Blend Strength", Float) = 1
 		[HideInInspector]_AlphaMaskValue ("Blend Offset", Float) = 0
 		[HideInInspector][ToggleUI]_AlphaMaskInvert ("Invert", Float) = 0
 		_Cutoff ("Alpha Cutoff", Range(0, 1.001)) = 0.5
@@ -73,53 +73,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 		[ThryWideEnum(Off, 0, 1R, 1, 1G, 2, 1B, 3, 1A, 4, 2R, 5, 2G, 6, 2B, 7, 2A, 8, 3R, 9, 3G, 10, 3B, 11, 3A, 12, 4R, 13, 4G, 14, 4B, 15, 4A, 16)] _AlphaGlobalMask ("Global Mask--{reference_property:_AlphaGlobalMaskBlendType}", Int) = 0
 		[HideInInspector][ThryWideEnum(Add, 7, Subtract, 1, Multiply, 2, Divide, 3, Min, 4, Max, 5, Average, 6, Replace, 0)] _AlphaGlobalMaskBlendType ("Blending", Int) = 2
 		[HideInInspector] m_end_Alpha ("Alpha Options", Float) = 0
-		[HideInInspector] m_start_tps_penetrator("Penetrator--{reference_property:_TPSPenetratorEnabled,tooltip:Enable TPS Penetrator: Requires the TPS Setup Wizard to be run (under Poi/TPS)}", Float) = 0
-		[HideInInspector] m_start_pen_autoConfig("Configured By Tool", Float) = 0
-		_TPS_PenetratorLength("Length of Penetrator Model--{tooltip:The length from the root of the P to the very tip}", Float) = 1
-		[Vector3]_TPS_PenetratorScale("Scale of Penetrator Model", Vector) = (1,1,1,1)
-		[Vector3]_TPS_PenetratorRight("Right Vector", Vector) = (1,0,0,0)
-		[Vector3]_TPS_PenetratorUp("Up Vector", Vector) = (0,1,0,0)
-		[Vector3]_TPS_PenetratorForward("Forward Vector", Vector) = (0,0,1,0)
-		[Toggle(TPS_IsSkinnedMesh)]_TPS_IsSkinnedMeshRenderer("Baked Vertex Colors", Float) = 0
-		_TPS_BakedMesh("Baked Mesh / Mask", 2D) = "white" {}
-		[HideInInspector] m_end_pen_autoConfig("TPS", Float) = 0
-		[Helpbox(1)]_TPSHelpbox("Penetrator allows your mesh to bend in the direction of an orifice. It is fully compatible with DPS. Requires the TPS Setup Wizard to be run afterwards. Click here to open the setup window.--{onClick:Thry.TPS.TPS_Setup}", Float) = 0
-		[HideInInspector][ThryToggle(TPS_Penetrator)]_TPSPenetratorEnabled("Enabled", Float) = 0
-		[Space(10)]
-		[Toggle]_TPS_AnimatedToggle("Animatable Toggle--{tooltip:This is a toggle that can be animated}", Float) = 1
-		[ThryIntRange]_TPS_Channel("Channel--{tooltip:Channel of the penetrator. Channel -1 is DPS Channel 1}", Range(-1,17)) = 0
-		[Helpbox(2)]_TPS_ChannelWarning("DPS Channel -1 may be deprecated in the future. It does not support animator features. Use channels 0-8 instead.--{condition_show:_TPS_Channel==-1}", Float) = 0
-		[HideInInspector]g_start_tps_bezier("Bezier (Bending)--{draw_border:true,margin_top:10,tooltip: Changes how the penetrator bends}", Float) = 0
-		_TPS_BezierStart("Bezier Start--{tooltip:Start later down the penetrator}", Range(0,5)) = 0.0
-		_TPS_BezierSmoothness("Bezier Smoothness--{tooltip:Smoothness of bending}", Range(0.49,0.01)) = 0.4
-		_TPS_SmoothStart("Smooth Start--{tooltip:When penetrator starts moving towards orifice}", Range(0.01,1)) = 1
-		[HideInInspector]g_end_tps_bezier("", Float) = 0
-		[HideInInspector]g_start_tps_squeeze("Squeeze--{draw_border:true,margin_top:10,tooltip:Penetrator contracts when entering an orifice}", Float) = 0
-		_TPS_Squeeze("Squeeze Strength--{tooltip:Percentage penetrator squeezes}", Range(0,1)) = 0.3
-		_TPS_SqueezeDistance("Squeeze Distance--{tooltip:Width of the squeezing}", Range(0.01,1)) = 0.2
-		[Space(5)]
-		[VectorToSliders(Hole Multiplier,0,1,Ring Multiplier,0,1)]_TPS_SqueezeTypeMultiplier("--{tooltip:Multiplies the squeeze depending on the orifice type}", Vector) = (1,1,1,1)
-		[HideInInspector]g_end_tps_squeeze("", Float) = 0
-		[HideInInspector]g_start_tps_buldge("Buldge--{draw_border:true,margin_top:10,tooltip:Penetrator expands in front of the orifice}", Float) = 0
-		_TPS_Buldge("Buldge--{tooltip:Amount in percentage}", Range(0,3)) = 0.3
-		_TPS_BuldgeDistance("Buldge Distance--{tooltip:Width of the buldging}", Range(0.01,1)) = 0.2
-		_TPS_BuldgeFalloffDistance("Buldge Falloff--{tooltip:Width of bulding in front of orifice}", Range(0.01,0.5)) = 0.05
-		[Space(5)]
-		[VectorToSliders(Hole Multiplier,0,1,Ring Multiplier,0,1)]_TPS_BuldgeTypeMultiplier("--{tooltip:Multiplies the buldge depending on the orifice type}", Vector) = (1,1,1,1)
-		[HideInInspector]g_end_tps_buldge("", Float) = 0
-		[HideInInspector]g_start_tps_pulsing("Pulsing--{draw_border:true,margin_top:10,tooltip: Penetrator expands in pulses while entering orifice}", Float) = 0
-		_TPS_PumpingStrength("Pumping Strength--{tooltip:Amount in percentage}", Range(0,1)) = 0
-		_TPS_PumpingSpeed("Pumping Speed--{tooltip:Frequenzy of pulsing}", Range(0,10)) = 1
-		_TPS_PumpingWidth("Pumping Width--{tooltip:Width of pulsing}", Range(0.01,1)) = 0.2
-		[HideInInspector]g_end_tps_pulsing("", Float) = 0
-		[HideInInspector]g_start_tps_idle("Idle--{draw_border:true,margin_top:10,tooltip: Changes how the penetrator bends while no orifice is near}", Float) = 0
-		[Helpbox(0)]_TPS_IdleGravity("Tip: For idle gravity & movement use physbones gravity & other functions", Float) = 0
-		_TPS_IdleSkrinkWidth("Idle Shrink Width--{tooltip:P shrinks while not penetrating}", Range(0,1)) = 1
-		_TPS_IdleSkrinkLength("Idle Shrink Length--{tooltip:P shrinks while not penetrating}", Range(0,1)) = 1
-		[HideInInspector]g_end_tps_idle("", Float) = 0
-		[HideInInspector]_TPS_BufferedDepth   ("_TPS2_BufferedDepth NL", Float) = 0
-		[HideInInspector]_TPS_BufferedStrength("_TPS2_BufferedStrength NL", Float) = 0
-		[HideInInspector] m_end_tps_penetrator("", Float) = 0
 		[HideInInspector] m_lightingCategory ("Shading", Float) = 0
 		[HideInInspector] m_start_PoiLightData ("Light Data--{button_help:{text:Tutorial,action:{type:URL,data:https://www.poiyomi.com/shading/light-data},hover:Documentation}}", Float) = 0
 		[sRGBWarning][ThryRGBAPacker(R, G, B, A, Linear, false)]_LightingAOMaps ("AO Maps (expand)--{reference_properties:[_LightingAOMapsPan, _LightingAOMapsUV,_LightDataAOStrengthR,_LightDataAOStrengthG,_LightDataAOStrengthB,_LightDataAOStrengthA, _LightDataAOGlobalMaskR]}", 2D) = "white" { }
@@ -276,6 +229,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 		_OffsetFactor ("Offset Factor", Float) = 0.0
 		_OffsetUnits ("Offset Units", Float) = 0.0
 		[ToggleUI]_RenderingReduceClipDistance ("Reduce Clip Distance", Float) = 0
+		[ToggleUI] _ZClip ("Z Clip", Float) = 1
 		[ToggleUI]_IgnoreFog ("Ignore Fog", Float) = 0
 		[ToggleUI]_FlipBackfaceNormals ("Flip Backface Normals", Int) = 1
 		[HideInInspector] Instancing ("Instancing", Float) = 0 //add this property for instancing variants settings to be shown
@@ -360,7 +314,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 			#pragma multi_compile_fwdbase
 			#pragma multi_compile_instancing
 			#pragma multi_compile_fog
-			#pragma multi_compile _ VERTEXLIGHT_ON
+			#pragma multi_compile_fragment _ VERTEXLIGHT_ON
 			#define POI_PASS_BASE
 			#include "UnityCG.cginc"
 			#include "UnityStandardUtils.cginc"
@@ -517,7 +471,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 			float _AlphaMaskUV;
 			float _AlphaMaskInvert;
 			float _MainAlphaMaskMode;
-			float _AlphaMaskScale;
+			float _AlphaMaskBlendStrength;
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
@@ -624,6 +578,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				float2 parallaxUV;
 				float2 dx;
 				float2 dy;
+				uint isRightHand;
 			};
 			struct PoiCam
 			{
@@ -1401,10 +1356,13 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 			}
 			float3 hueShift(float3 color, float shift)
 			{
-				float3 oklab = linear_srgb_to_oklab(color + 0.0000001);
+				float3 oklab = linear_srgb_to_oklab(color);
+				float chroma = length(oklab.yz);
+				if (chroma < 1e-5) {
+					return color;
+				}
 				float hue = atan2(oklab.z, oklab.y);
 				hue += shift * PI * 2;  // Add the hue shift
-				float chroma = length(oklab.yz);
 				oklab.y = cos(hue) * chroma;
 				oklab.z = sin(hue) * chroma;
 				return oklab_to_linear_srgb(oklab);
@@ -2251,11 +2209,17 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				return lerp(MonoPanoProjection(viewDirection), StereoPanoProjection(viewDirection), (0.0 /*_StereoEnabled*/));
 			}
 			#if defined(GEOM_TYPE_BRANCH) || defined(GEOM_TYPE_BRANCH_DETAIL) || defined(GEOM_TYPE_FROND) || defined(DEPTH_OF_FIELD_COC_VIEW)
-			float2 decalUV(float uvNumber, float2 position, half rotation, half rotationSpeed, half2 scale, float4 scaleOffset, float depth, in PoiMesh poiMesh, in PoiCam poiCam)
+			float2 decalUV(float uvNumber, float2 position, half rotation, half rotationSpeed, half2 scale, float4 scaleOffset, float depth, in float symmetryMode, in float mirroredUVMode, in PoiMesh poiMesh, in PoiCam poiCam)
 			{
 				scaleOffset = float4(-scaleOffset.x, scaleOffset.y, -scaleOffset.z, scaleOffset.w);
 				float2 centerOffset = float2((scaleOffset.x + scaleOffset.y) / 2, (scaleOffset.z + scaleOffset.w) / 2);
-				float2 uv = poiMesh.uv[uvNumber] + calcParallax(depth + 1, poiCam);
+				float2 uv = poiMesh.uv[uvNumber];
+				if (symmetryMode == 1) uv.x = abs(uv.x - 0.5) + 0.5;
+				if (symmetryMode == 2 && uv.x < 0.5) uv.x = 1.0 - uv.x;
+				if ((mirroredUVMode == 1 || mirroredUVMode == 4) && poiMesh.isRightHand) uv.x = 1.0 - uv.x;
+				if (mirroredUVMode == 2 && poiMesh.isRightHand) uv.x = -1.0;
+				if ((mirroredUVMode == 3 || mirroredUVMode == 4) && !poiMesh.isRightHand) uv.x = -1.0;
+				uv += calcParallax(depth + 1, poiCam);
 				float2 decalCenter = position + centerOffset;
 				float theta = radians(rotation + _Time.z * rotationSpeed);
 				float cs = cos(theta);
@@ -2321,6 +2285,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				float m_DecalChannelSeparationAngleStrength;
 				float m_DecalOverrideAlphaMode;
 				float m_DecalOverrideAlpha;
+				float m_DecalSymmetryMode;
+				float m_DecalMirroredUVMode;
 				#if defined(POI_AUDIOLINK)
 				half m_AudioLinkDecalScaleBand;
 				float4 m_AudioLinkDecalScale;
@@ -2368,14 +2334,14 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				}
 				void SampleDecalNoTexture(in PoiMods poiMods, in PoiLight poiLight, in PoiMesh poiMesh, in PoiCam poiCam)
 				{
-					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale, m_DecalSideOffset +sideMod, m_DecalDepth, poiMesh, poiCam);
+					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale, m_DecalSideOffset +sideMod, m_DecalDepth, m_DecalSymmetryMode, m_DecalMirroredUVMode, poiMesh, poiCam);
 					decalColor = float4(poiThemeColor(poiMods, m_DecalColor.rgb, m_DecalColorThemeIndex), m_DecalColor.a);
 					decalColor.rgb = decalHueShift(m_DecalHueShiftEnabled, decalColor.rgb, m_DecalHueShift + poiLight.nDotV * m_DecalHueAngleStrength, m_DecalHueShiftSpeed, m_DecalHueShiftColorSpace);
 					decalColor.a *= decalMask[m_DecalMaskChannel] * applyTilingClipping(m_DecalTiled, uv);
 				}
 				void SampleDecal(sampler2D decalTexture, in PoiMods poiMods, in PoiLight poiLight, in PoiMesh poiMesh, in PoiCam poiCam, float2 scaleMultiplier = float2(1, 1))
 				{
-					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale * scaleMultiplier, m_DecalSideOffset +sideMod, m_DecalDepth, poiMesh, poiCam);
+					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale * scaleMultiplier, m_DecalSideOffset +sideMod, m_DecalDepth, m_DecalSymmetryMode, m_DecalMirroredUVMode, poiMesh, poiCam);
 					float4 dduv = any(fwidth(uv) > .5) ? 0.001 : float4(ddx(uv) * m_DecalTexture_ST.x, ddy(uv) * m_DecalTexture_ST.y);
 					decalColor = tex2D(decalTexture, poiUV(uv, m_DecalTexture_ST) + m_DecalTexturePan * _Time.x, dduv.xy, dduv.zw) * float4(poiThemeColor(poiMods, m_DecalColor.rgb, m_DecalColorThemeIndex), m_DecalColor.a);
 					decalColor.rgb = decalHueShift(m_DecalHueShiftEnabled, decalColor.rgb, m_DecalHueShift + poiLight.nDotV * m_DecalHueAngleStrength, m_DecalHueShiftSpeed, m_DecalHueShiftColorSpace);
@@ -2383,7 +2349,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				}
 				void SampleDecalNoAlpha(sampler2D decalTexture, in PoiMods poiMods, in PoiLight poiLight, in PoiMesh poiMesh, in PoiCam poiCam, float2 scaleMultiplier = float2(1, 1))
 				{
-					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale * scaleMultiplier, m_DecalSideOffset +sideMod, m_DecalDepth, poiMesh, poiCam);
+					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale * scaleMultiplier, m_DecalSideOffset +sideMod, m_DecalDepth, m_DecalSymmetryMode, m_DecalMirroredUVMode, poiMesh, poiCam);
 					float4 dduv = any(fwidth(uv) > .5) ? 0.001 : float4(ddx(uv) * m_DecalTexture_ST.x, ddy(uv) * m_DecalTexture_ST.y);
 					decalColor.rgb = tex2D(decalTexture, poiUV(uv, m_DecalTexture_ST) + m_DecalTexturePan * _Time.x, dduv.xy, dduv.zw) * float4(poiThemeColor(poiMods, m_DecalColor.rgb, m_DecalColorThemeIndex), m_DecalColor.a).rgb;
 					decalColor.rgb = decalHueShift(m_DecalHueShiftEnabled, decalColor.rgb, m_DecalHueShift + poiLight.nDotV * m_DecalHueAngleStrength, m_DecalHueShiftSpeed, m_DecalHueShiftColorSpace);
@@ -2391,7 +2357,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				}
 				void SampleDecalAlphaOnly(sampler2D decalTexture, in PoiMods poiMods, in PoiLight poiLight, in PoiMesh poiMesh, in PoiCam poiCam, float2 scaleMultiplier = float2(1, 1))
 				{
-					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale * scaleMultiplier, m_DecalSideOffset +sideMod, m_DecalDepth, poiMesh, poiCam);
+					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale * scaleMultiplier, m_DecalSideOffset +sideMod, m_DecalDepth, m_DecalSymmetryMode, m_DecalMirroredUVMode, poiMesh, poiCam);
 					float4 dduv = any(fwidth(uv) > .5) ? 0.001 : float4(ddx(uv) * m_DecalTexture_ST.x, ddy(uv) * m_DecalTexture_ST.y);
 					decalColor = tex2D(decalTexture, poiUV(uv, m_DecalTexture_ST) + m_DecalTexturePan * _Time.x, dduv.xy, dduv.zw) * float4(poiThemeColor(poiMods, m_DecalColor.rgb, m_DecalColorThemeIndex), m_DecalColor.a);
 					decalColor.a *= decalMask[m_DecalMaskChannel] * applyTilingClipping(m_DecalTiled, uv);
@@ -2401,8 +2367,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 					decalColor = float4(0, 0, 0, 1);
 					decalChannelOffset += m_DecalChannelSeparation + m_DecalChannelSeparationAngleStrength * (m_DecalChannelSeparationAngleStrength > 0 ? (1 - poiLight.nDotV) : poiLight.nDotV);
 					float2 positionOffset = decalChannelOffset * 0.01 * (decalScale.x + decalScale.y) * float2(cos(m_DecalChannelSeparationVertical), sin(m_DecalChannelSeparationVertical));
-					float2 uvSample0 = decalUV(m_DecalTextureUV, m_DecalPosition + positionOffset, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale, m_DecalSideOffset +sideMod, m_DecalDepth, poiMesh, poiCam);
-					float2 uvSample1 = decalUV(m_DecalTextureUV, m_DecalPosition - positionOffset, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale, m_DecalSideOffset +sideMod, m_DecalDepth, poiMesh, poiCam);
+					float2 uvSample0 = decalUV(m_DecalTextureUV, m_DecalPosition + positionOffset, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale, m_DecalSideOffset +sideMod, m_DecalDepth, m_DecalSymmetryMode, m_DecalMirroredUVMode, poiMesh, poiCam);
+					float2 uvSample1 = decalUV(m_DecalTextureUV, m_DecalPosition - positionOffset, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale, m_DecalSideOffset +sideMod, m_DecalDepth, m_DecalSymmetryMode, m_DecalMirroredUVMode, poiMesh, poiCam);
 					float4 dduvSample0 = any(fwidth(uvSample0) > .5) ? 0.001 : float4(ddx(uvSample0) * m_DecalTexture_ST.x, ddy(uvSample0) * m_DecalTexture_ST.y);
 					float4 dduvSample1 = any(fwidth(uvSample1) > .5) ? 0.001 : float4(ddx(uvSample1) * m_DecalTexture_ST.x, ddy(uvSample1) * m_DecalTexture_ST.y);
 					float4 sample0 = tex2D(decalTexture, poiUV(uvSample0, m_DecalTexture_ST) + m_DecalTexturePan * _Time.x, dduvSample0.xy, dduvSample0.zw) * float4(poiThemeColor(poiMods, m_DecalColor.rgb, m_DecalColorThemeIndex), m_DecalColor.a);
@@ -2427,6 +2393,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 					{
 						decalColor.a = maskBlend(decalColor.a, poiMods.globalMask[m_DecalGlobalMask - 1], m_DecalGlobalMaskBlendType);
 					}
+					if (m_DecalMirroredUVMode == 2 && poiMesh.isRightHand) decalColor.a = 0;
+					if ((m_DecalMirroredUVMode == 3 || m_DecalMirroredUVMode == 4) && !poiMesh.isRightHand) decalColor.a = 0;
 					float audioLinkDecalAlpha = 0;
 					float audioLinkDecalEmission = 0;
 					#ifdef POI_AUDIOLINK
@@ -2546,6 +2514,15 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				#else
 				float4 decalMask = 1;
 				#endif
+				#ifdef TPS_Penetrator
+				if ((0.0 /*_DecalTPSDepthMaskEnabled*/))
+				{
+					decalMask.r = lerp(0, decalMask.r * TPSBufferedDepth(poiMesh.localPos, poiMesh.vertexColor), (1.0 /*_Decal0TPSMaskStrength*/));
+					decalMask.g = lerp(0, decalMask.g * TPSBufferedDepth(poiMesh.localPos, poiMesh.vertexColor), (1.0 /*_Decal1TPSMaskStrength*/));
+					decalMask.b = lerp(0, decalMask.b * TPSBufferedDepth(poiMesh.localPos, poiMesh.vertexColor), (1.0 /*_Decal2TPSMaskStrength*/));
+					decalMask.a = lerp(0, decalMask.a * TPSBufferedDepth(poiMesh.localPos, poiMesh.vertexColor), (1.0 /*_Decal3TPSMaskStrength*/));
+				}
+				#endif
 				float4 decalColor = 1;
 				float2 uv = 0;
 			}
@@ -2590,6 +2567,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				poiMesh.isFrontFace = facing;
 				poiMesh.dx = ddx(poiMesh.uv[0]);
 				poiMesh.dy = ddy(poiMesh.uv[0]);
+				poiMesh.isRightHand = i.tangent.w > 0.0;
 				#ifndef POI_PASS_OUTLINE
 				if (!poiMesh.isFrontFace && (1 /*_FlipBackfaceNormals*/))
 				{
@@ -2873,15 +2851,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				float fadeDist = UnityComputeShadowFadeDistance(poiMesh.worldPos, zDist);
 				poiLight.attenuation = UnityMixRealtimeAndBakedShadows(poiLight.attenuation, bakedAtten, UnityComputeShadowFade(fadeDist));
 				#endif
-				#ifdef RALIV_PENETRATION
-				if ((0.0 /*_PenetratorEnabled*/) || (0.0 /*_OrifaceEnabled*/))
-				{
-					if ((1.0 /*_RalivDPSDisableShadowCaster*/))
-					{
-						poiLight.attenuation = 1;
-					}
-				}
-				#endif
 				if (!any(poiLight.directColor) && !any(poiLight.indirectColor) && lightMapMode == 0)
 				{
 					lightMapMode = 1;
@@ -3026,7 +2995,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				if ((2.0 /*_MainAlphaMaskMode*/))
 				{
 					float alphaMask = POI2D_SAMPLER_PAN(_AlphaMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_AlphaMaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0).xy).r;
-					alphaMask = saturate(alphaMask * (1.0 /*_AlphaMaskScale*/) + (0.0 /*_AlphaMaskValue*/));
+					alphaMask = saturate(alphaMask * (1.0 /*_AlphaMaskBlendStrength*/) + ((0.0 /*_AlphaMaskInvert*/) ?_AlphaMaskValue * -1 : (0.0 /*_AlphaMaskValue*/)));
 					if ((0.0 /*_AlphaMaskInvert*/)) alphaMask = 1 - alphaMask;
 					if ((2.0 /*_MainAlphaMaskMode*/) == 1) poiFragData.alpha = alphaMask;
 					if ((2.0 /*_MainAlphaMaskMode*/) == 2) poiFragData.alpha = poiFragData.alpha * alphaMask;
@@ -3259,7 +3228,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 			float _AlphaMaskUV;
 			float _AlphaMaskInvert;
 			float _MainAlphaMaskMode;
-			float _AlphaMaskScale;
+			float _AlphaMaskBlendStrength;
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
@@ -3362,6 +3331,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				float2 parallaxUV;
 				float2 dx;
 				float2 dy;
+				uint isRightHand;
 			};
 			struct PoiCam
 			{
@@ -4139,10 +4109,13 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 			}
 			float3 hueShift(float3 color, float shift)
 			{
-				float3 oklab = linear_srgb_to_oklab(color + 0.0000001);
+				float3 oklab = linear_srgb_to_oklab(color);
+				float chroma = length(oklab.yz);
+				if (chroma < 1e-5) {
+					return color;
+				}
 				float hue = atan2(oklab.z, oklab.y);
 				hue += shift * PI * 2;  // Add the hue shift
-				float chroma = length(oklab.yz);
 				oklab.y = cos(hue) * chroma;
 				oklab.z = sin(hue) * chroma;
 				return oklab_to_linear_srgb(oklab);
@@ -4989,11 +4962,17 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				return lerp(MonoPanoProjection(viewDirection), StereoPanoProjection(viewDirection), (0.0 /*_StereoEnabled*/));
 			}
 			#if defined(GEOM_TYPE_BRANCH) || defined(GEOM_TYPE_BRANCH_DETAIL) || defined(GEOM_TYPE_FROND) || defined(DEPTH_OF_FIELD_COC_VIEW)
-			float2 decalUV(float uvNumber, float2 position, half rotation, half rotationSpeed, half2 scale, float4 scaleOffset, float depth, in PoiMesh poiMesh, in PoiCam poiCam)
+			float2 decalUV(float uvNumber, float2 position, half rotation, half rotationSpeed, half2 scale, float4 scaleOffset, float depth, in float symmetryMode, in float mirroredUVMode, in PoiMesh poiMesh, in PoiCam poiCam)
 			{
 				scaleOffset = float4(-scaleOffset.x, scaleOffset.y, -scaleOffset.z, scaleOffset.w);
 				float2 centerOffset = float2((scaleOffset.x + scaleOffset.y) / 2, (scaleOffset.z + scaleOffset.w) / 2);
-				float2 uv = poiMesh.uv[uvNumber] + calcParallax(depth + 1, poiCam);
+				float2 uv = poiMesh.uv[uvNumber];
+				if (symmetryMode == 1) uv.x = abs(uv.x - 0.5) + 0.5;
+				if (symmetryMode == 2 && uv.x < 0.5) uv.x = 1.0 - uv.x;
+				if ((mirroredUVMode == 1 || mirroredUVMode == 4) && poiMesh.isRightHand) uv.x = 1.0 - uv.x;
+				if (mirroredUVMode == 2 && poiMesh.isRightHand) uv.x = -1.0;
+				if ((mirroredUVMode == 3 || mirroredUVMode == 4) && !poiMesh.isRightHand) uv.x = -1.0;
+				uv += calcParallax(depth + 1, poiCam);
 				float2 decalCenter = position + centerOffset;
 				float theta = radians(rotation + _Time.z * rotationSpeed);
 				float cs = cos(theta);
@@ -5059,6 +5038,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				float m_DecalChannelSeparationAngleStrength;
 				float m_DecalOverrideAlphaMode;
 				float m_DecalOverrideAlpha;
+				float m_DecalSymmetryMode;
+				float m_DecalMirroredUVMode;
 				#if defined(POI_AUDIOLINK)
 				half m_AudioLinkDecalScaleBand;
 				float4 m_AudioLinkDecalScale;
@@ -5106,14 +5087,14 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				}
 				void SampleDecalNoTexture(in PoiMods poiMods, in PoiLight poiLight, in PoiMesh poiMesh, in PoiCam poiCam)
 				{
-					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale, m_DecalSideOffset +sideMod, m_DecalDepth, poiMesh, poiCam);
+					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale, m_DecalSideOffset +sideMod, m_DecalDepth, m_DecalSymmetryMode, m_DecalMirroredUVMode, poiMesh, poiCam);
 					decalColor = float4(poiThemeColor(poiMods, m_DecalColor.rgb, m_DecalColorThemeIndex), m_DecalColor.a);
 					decalColor.rgb = decalHueShift(m_DecalHueShiftEnabled, decalColor.rgb, m_DecalHueShift + poiLight.nDotV * m_DecalHueAngleStrength, m_DecalHueShiftSpeed, m_DecalHueShiftColorSpace);
 					decalColor.a *= decalMask[m_DecalMaskChannel] * applyTilingClipping(m_DecalTiled, uv);
 				}
 				void SampleDecal(sampler2D decalTexture, in PoiMods poiMods, in PoiLight poiLight, in PoiMesh poiMesh, in PoiCam poiCam, float2 scaleMultiplier = float2(1, 1))
 				{
-					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale * scaleMultiplier, m_DecalSideOffset +sideMod, m_DecalDepth, poiMesh, poiCam);
+					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale * scaleMultiplier, m_DecalSideOffset +sideMod, m_DecalDepth, m_DecalSymmetryMode, m_DecalMirroredUVMode, poiMesh, poiCam);
 					float4 dduv = any(fwidth(uv) > .5) ? 0.001 : float4(ddx(uv) * m_DecalTexture_ST.x, ddy(uv) * m_DecalTexture_ST.y);
 					decalColor = tex2D(decalTexture, poiUV(uv, m_DecalTexture_ST) + m_DecalTexturePan * _Time.x, dduv.xy, dduv.zw) * float4(poiThemeColor(poiMods, m_DecalColor.rgb, m_DecalColorThemeIndex), m_DecalColor.a);
 					decalColor.rgb = decalHueShift(m_DecalHueShiftEnabled, decalColor.rgb, m_DecalHueShift + poiLight.nDotV * m_DecalHueAngleStrength, m_DecalHueShiftSpeed, m_DecalHueShiftColorSpace);
@@ -5121,7 +5102,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				}
 				void SampleDecalNoAlpha(sampler2D decalTexture, in PoiMods poiMods, in PoiLight poiLight, in PoiMesh poiMesh, in PoiCam poiCam, float2 scaleMultiplier = float2(1, 1))
 				{
-					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale * scaleMultiplier, m_DecalSideOffset +sideMod, m_DecalDepth, poiMesh, poiCam);
+					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale * scaleMultiplier, m_DecalSideOffset +sideMod, m_DecalDepth, m_DecalSymmetryMode, m_DecalMirroredUVMode, poiMesh, poiCam);
 					float4 dduv = any(fwidth(uv) > .5) ? 0.001 : float4(ddx(uv) * m_DecalTexture_ST.x, ddy(uv) * m_DecalTexture_ST.y);
 					decalColor.rgb = tex2D(decalTexture, poiUV(uv, m_DecalTexture_ST) + m_DecalTexturePan * _Time.x, dduv.xy, dduv.zw) * float4(poiThemeColor(poiMods, m_DecalColor.rgb, m_DecalColorThemeIndex), m_DecalColor.a).rgb;
 					decalColor.rgb = decalHueShift(m_DecalHueShiftEnabled, decalColor.rgb, m_DecalHueShift + poiLight.nDotV * m_DecalHueAngleStrength, m_DecalHueShiftSpeed, m_DecalHueShiftColorSpace);
@@ -5129,7 +5110,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				}
 				void SampleDecalAlphaOnly(sampler2D decalTexture, in PoiMods poiMods, in PoiLight poiLight, in PoiMesh poiMesh, in PoiCam poiCam, float2 scaleMultiplier = float2(1, 1))
 				{
-					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale * scaleMultiplier, m_DecalSideOffset +sideMod, m_DecalDepth, poiMesh, poiCam);
+					uv = decalUV(m_DecalTextureUV, m_DecalPosition, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale * scaleMultiplier, m_DecalSideOffset +sideMod, m_DecalDepth, m_DecalSymmetryMode, m_DecalMirroredUVMode, poiMesh, poiCam);
 					float4 dduv = any(fwidth(uv) > .5) ? 0.001 : float4(ddx(uv) * m_DecalTexture_ST.x, ddy(uv) * m_DecalTexture_ST.y);
 					decalColor = tex2D(decalTexture, poiUV(uv, m_DecalTexture_ST) + m_DecalTexturePan * _Time.x, dduv.xy, dduv.zw) * float4(poiThemeColor(poiMods, m_DecalColor.rgb, m_DecalColorThemeIndex), m_DecalColor.a);
 					decalColor.a *= decalMask[m_DecalMaskChannel] * applyTilingClipping(m_DecalTiled, uv);
@@ -5139,8 +5120,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 					decalColor = float4(0, 0, 0, 1);
 					decalChannelOffset += m_DecalChannelSeparation + m_DecalChannelSeparationAngleStrength * (m_DecalChannelSeparationAngleStrength > 0 ? (1 - poiLight.nDotV) : poiLight.nDotV);
 					float2 positionOffset = decalChannelOffset * 0.01 * (decalScale.x + decalScale.y) * float2(cos(m_DecalChannelSeparationVertical), sin(m_DecalChannelSeparationVertical));
-					float2 uvSample0 = decalUV(m_DecalTextureUV, m_DecalPosition + positionOffset, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale, m_DecalSideOffset +sideMod, m_DecalDepth, poiMesh, poiCam);
-					float2 uvSample1 = decalUV(m_DecalTextureUV, m_DecalPosition - positionOffset, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale, m_DecalSideOffset +sideMod, m_DecalDepth, poiMesh, poiCam);
+					float2 uvSample0 = decalUV(m_DecalTextureUV, m_DecalPosition + positionOffset, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale, m_DecalSideOffset +sideMod, m_DecalDepth, m_DecalSymmetryMode, m_DecalMirroredUVMode, poiMesh, poiCam);
+					float2 uvSample1 = decalUV(m_DecalTextureUV, m_DecalPosition - positionOffset, m_DecalRotation + decalRotation, m_DecalRotationSpeed, decalScale, m_DecalSideOffset +sideMod, m_DecalDepth, m_DecalSymmetryMode, m_DecalMirroredUVMode, poiMesh, poiCam);
 					float4 dduvSample0 = any(fwidth(uvSample0) > .5) ? 0.001 : float4(ddx(uvSample0) * m_DecalTexture_ST.x, ddy(uvSample0) * m_DecalTexture_ST.y);
 					float4 dduvSample1 = any(fwidth(uvSample1) > .5) ? 0.001 : float4(ddx(uvSample1) * m_DecalTexture_ST.x, ddy(uvSample1) * m_DecalTexture_ST.y);
 					float4 sample0 = tex2D(decalTexture, poiUV(uvSample0, m_DecalTexture_ST) + m_DecalTexturePan * _Time.x, dduvSample0.xy, dduvSample0.zw) * float4(poiThemeColor(poiMods, m_DecalColor.rgb, m_DecalColorThemeIndex), m_DecalColor.a);
@@ -5165,6 +5146,8 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 					{
 						decalColor.a = maskBlend(decalColor.a, poiMods.globalMask[m_DecalGlobalMask - 1], m_DecalGlobalMaskBlendType);
 					}
+					if (m_DecalMirroredUVMode == 2 && poiMesh.isRightHand) decalColor.a = 0;
+					if ((m_DecalMirroredUVMode == 3 || m_DecalMirroredUVMode == 4) && !poiMesh.isRightHand) decalColor.a = 0;
 					float audioLinkDecalAlpha = 0;
 					float audioLinkDecalEmission = 0;
 					#ifdef POI_AUDIOLINK
@@ -5284,6 +5267,15 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				#else
 				float4 decalMask = 1;
 				#endif
+				#ifdef TPS_Penetrator
+				if ((0.0 /*_DecalTPSDepthMaskEnabled*/))
+				{
+					decalMask.r = lerp(0, decalMask.r * TPSBufferedDepth(poiMesh.localPos, poiMesh.vertexColor), (1.0 /*_Decal0TPSMaskStrength*/));
+					decalMask.g = lerp(0, decalMask.g * TPSBufferedDepth(poiMesh.localPos, poiMesh.vertexColor), (1.0 /*_Decal1TPSMaskStrength*/));
+					decalMask.b = lerp(0, decalMask.b * TPSBufferedDepth(poiMesh.localPos, poiMesh.vertexColor), (1.0 /*_Decal2TPSMaskStrength*/));
+					decalMask.a = lerp(0, decalMask.a * TPSBufferedDepth(poiMesh.localPos, poiMesh.vertexColor), (1.0 /*_Decal3TPSMaskStrength*/));
+				}
+				#endif
 				float4 decalColor = 1;
 				float2 uv = 0;
 			}
@@ -5328,6 +5320,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				poiMesh.isFrontFace = facing;
 				poiMesh.dx = ddx(poiMesh.uv[0]);
 				poiMesh.dy = ddy(poiMesh.uv[0]);
+				poiMesh.isRightHand = i.tangent.w > 0.0;
 				#ifndef POI_PASS_OUTLINE
 				if (!poiMesh.isFrontFace && (1 /*_FlipBackfaceNormals*/))
 				{
@@ -5611,15 +5604,6 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				float fadeDist = UnityComputeShadowFadeDistance(poiMesh.worldPos, zDist);
 				poiLight.attenuation = UnityMixRealtimeAndBakedShadows(poiLight.attenuation, bakedAtten, UnityComputeShadowFade(fadeDist));
 				#endif
-				#ifdef RALIV_PENETRATION
-				if ((0.0 /*_PenetratorEnabled*/) || (0.0 /*_OrifaceEnabled*/))
-				{
-					if ((1.0 /*_RalivDPSDisableShadowCaster*/))
-					{
-						poiLight.attenuation = 1;
-					}
-				}
-				#endif
 				if (!any(poiLight.directColor) && !any(poiLight.indirectColor) && lightMapMode == 0)
 				{
 					lightMapMode = 1;
@@ -5764,7 +5748,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				if ((2.0 /*_MainAlphaMaskMode*/))
 				{
 					float alphaMask = POI2D_SAMPLER_PAN(_AlphaMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_AlphaMaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0).xy).r;
-					alphaMask = saturate(alphaMask * (1.0 /*_AlphaMaskScale*/) + (0.0 /*_AlphaMaskValue*/));
+					alphaMask = saturate(alphaMask * (1.0 /*_AlphaMaskBlendStrength*/) + ((0.0 /*_AlphaMaskInvert*/) ?_AlphaMaskValue * -1 : (0.0 /*_AlphaMaskValue*/)));
 					if ((0.0 /*_AlphaMaskInvert*/)) alphaMask = 1 - alphaMask;
 					if ((2.0 /*_MainAlphaMaskMode*/) == 1) poiFragData.alpha = alphaMask;
 					if ((2.0 /*_MainAlphaMaskMode*/) == 2) poiFragData.alpha = poiFragData.alpha * alphaMask;
@@ -5935,7 +5919,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 			float _AlphaMaskUV;
 			float _AlphaMaskInvert;
 			float _MainAlphaMaskMode;
-			float _AlphaMaskScale;
+			float _AlphaMaskBlendStrength;
 			float _AlphaMaskValue;
 			#endif
 			float _Cutoff;
@@ -6005,6 +5989,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				float2 parallaxUV;
 				float2 dx;
 				float2 dy;
+				uint isRightHand;
 			};
 			struct PoiCam
 			{
@@ -6782,10 +6767,13 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 			}
 			float3 hueShift(float3 color, float shift)
 			{
-				float3 oklab = linear_srgb_to_oklab(color + 0.0000001);
+				float3 oklab = linear_srgb_to_oklab(color);
+				float chroma = length(oklab.yz);
+				if (chroma < 1e-5) {
+					return color;
+				}
 				float hue = atan2(oklab.z, oklab.y);
 				hue += shift * PI * 2;  // Add the hue shift
-				float chroma = length(oklab.yz);
 				oklab.y = cos(hue) * chroma;
 				oklab.z = sin(hue) * chroma;
 				return oklab_to_linear_srgb(oklab);
@@ -7658,6 +7646,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				poiMesh.isFrontFace = facing;
 				poiMesh.dx = ddx(poiMesh.uv[0]);
 				poiMesh.dy = ddy(poiMesh.uv[0]);
+				poiMesh.isRightHand = i.tangent.w > 0.0;
 				#ifndef POI_PASS_OUTLINE
 				if (!poiMesh.isFrontFace && (1 /*_FlipBackfaceNormals*/))
 				{
@@ -7755,7 +7744,7 @@ Shader "Hidden/Locked/.poiyomi/Poiyomi Pro/d4f03aad48dfee84d800085f5a177e07"
 				if ((2.0 /*_MainAlphaMaskMode*/))
 				{
 					float alphaMask = POI2D_SAMPLER_PAN(_AlphaMask, _MainTex, poiUV(poiMesh.uv[(0.0 /*_AlphaMaskUV*/)], float4(1,1,0,0)), float4(0,0,0,0).xy).r;
-					alphaMask = saturate(alphaMask * (1.0 /*_AlphaMaskScale*/) + (0.0 /*_AlphaMaskValue*/));
+					alphaMask = saturate(alphaMask * (1.0 /*_AlphaMaskBlendStrength*/) + ((0.0 /*_AlphaMaskInvert*/) ?_AlphaMaskValue * -1 : (0.0 /*_AlphaMaskValue*/)));
 					if ((0.0 /*_AlphaMaskInvert*/)) alphaMask = 1 - alphaMask;
 					if ((2.0 /*_MainAlphaMaskMode*/) == 1) poiFragData.alpha = alphaMask;
 					if ((2.0 /*_MainAlphaMaskMode*/) == 2) poiFragData.alpha = poiFragData.alpha * alphaMask;

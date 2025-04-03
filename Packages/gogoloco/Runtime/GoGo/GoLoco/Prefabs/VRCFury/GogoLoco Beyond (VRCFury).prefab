@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1227330909385755637}
   - component: {fileID: 3038756393373459190}
   - component: {fileID: -8368679895367608558}
+  - component: {fileID: 2081439646210517082}
   m_Layer: 0
   m_Name: GogoLoco Beyond (VRCFury)
   m_TagString: Untagged
@@ -31,9 +32,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 5830968986787120585}
+  - {fileID: 5856473219369483945}
   - {fileID: 6697050015665345536}
-  - {fileID: 8048049420319855582}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3038756393373459190
@@ -50,7 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1071.0
+  vrcfuryVersion: 1.1172.0
   somethingIsBroken: 0
   config:
     features: []
@@ -118,6 +118,7 @@ MonoBehaviour:
         rewriteBindings: []
         allowMissingAssets: 0
         injectSpsDepthParam: 
+        injectSpsVelocityParam: 
         controller:
           version: 1
           fileID: 0
@@ -154,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1071.0
+  vrcfuryVersion: 1.1172.0
   somethingIsBroken: 0
   config:
     features: []
@@ -166,8 +167,7 @@ MonoBehaviour:
     - rid: 1
       type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
       data:
-        version: 6
-        linkMode: 1
+        version: 7
         propBone: {fileID: 1917436837784818295}
         linkTo:
         - useBone: 1
@@ -175,12 +175,17 @@ MonoBehaviour:
           useObj: 0
           obj: {fileID: 0}
           offset: 
-        keepBoneOffsets2: 2
         removeBoneSuffix: 
-        skinRewriteScalingFactor: 0
-        scalingFactorPowersOf10Only: 0
         removeParentConstraints: 1
         forceMergedName: 
+        forceOneWorldScale: 1
+        recursive: 0
+        alignPosition: 1
+        alignRotation: 1
+        alignScale: 1
+        autoScaleFactor: 0
+        scalingFactorPowersOf10Only: 0
+        skinRewriteScalingFactor: 1
         useOptimizedUpload: 0
         useBoneMerging: 0
         keepBoneOffsets: 0
@@ -188,6 +193,62 @@ MonoBehaviour:
         boneOnAvatar: 10
         bonePathOnAvatar: 
         fallbackBones: 
+        keepBoneOffsets2: 2
+        linkMode: 4
+--- !u!114 &2081439646210517082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227330909385755638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1172.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8658976310037577771
+  references:
+    version: 2
+    RefIds:
+    - rid: 8658976310037577771
+      type: {class: ArmatureLink, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 7
+        propBone: {fileID: 5856473219369483946}
+        linkTo:
+        - useBone: 0
+          bone: 0
+          useObj: 0
+          obj: {fileID: 0}
+          offset: 
+        removeBoneSuffix: 
+        removeParentConstraints: 1
+        forceMergedName: Beyond Prefab
+        forceOneWorldScale: 1
+        recursive: 0
+        alignPosition: 0
+        alignRotation: 0
+        alignScale: 0
+        autoScaleFactor: 1
+        scalingFactorPowersOf10Only: 1
+        skinRewriteScalingFactor: 1
+        useOptimizedUpload: 0
+        useBoneMerging: 0
+        keepBoneOffsets: 0
+        physbonesOnAvatarBones: 0
+        boneOnAvatar: 0
+        bonePathOnAvatar: 
+        fallbackBones: 
+        keepBoneOffsets2: 0
+        linkMode: 4
 --- !u!1 &1917436837784818295
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,38 +280,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1227330909385755637}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7518202721171038299
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8048049420319855582}
-  m_Layer: 0
-  m_Name: Armature
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8048049420319855582
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7518202721171038299}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1227330909385755637}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &5183703712312978952
+--- !u!1001 &5070396998496474472
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -318,14 +348,25 @@ PrefabInstance:
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
       objectReference: {fileID: 6697050015665345536}
+    - target: {fileID: 5427161362554946324, guid: 632a90e6cfab39944a9bece7414983b0,
+        type: 3}
+      propertyPath: Sources.source0.SourceTransform
+      value: 
+      objectReference: {fileID: 6697050015665345536}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 632a90e6cfab39944a9bece7414983b0, type: 3}
---- !u!4 &5830968986787120585 stripped
+--- !u!4 &5856473219369483945 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1665193221343275969, guid: 632a90e6cfab39944a9bece7414983b0,
     type: 3}
-  m_PrefabInstance: {fileID: 5183703712312978952}
+  m_PrefabInstance: {fileID: 5070396998496474472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5856473219369483946 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1665193221343275970, guid: 632a90e6cfab39944a9bece7414983b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 5070396998496474472}
   m_PrefabAsset: {fileID: 0}

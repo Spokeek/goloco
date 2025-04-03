@@ -63,6 +63,7 @@ GameObject:
   - component: {fileID: 3208265933197728548}
   - component: {fileID: 4150783126572841971}
   - component: {fileID: 2276677588744790224}
+  - component: {fileID: 4913746930511947840}
   m_Layer: 0
   m_Name: GogoLoco Beyond (Modular Avatar)
   m_TagString: Untagged
@@ -439,6 +440,18 @@ MonoBehaviour:
     saved: 0
     hasExplicitDefaultValue: 1
     m_overrideAnimatorDefaults: 0
+--- !u!114 &4913746930511947840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3208265933197728545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e2d9f1d69e34b92a96e6cc162770fad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &9190782552626147422
 PrefabInstance:
   m_ObjectHideFlags: 0

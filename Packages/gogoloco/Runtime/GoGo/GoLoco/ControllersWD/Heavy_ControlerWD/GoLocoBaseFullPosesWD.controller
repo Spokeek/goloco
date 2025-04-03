@@ -743,7 +743,7 @@ MonoBehaviour:
   - type: 0
     name: Go/Float
     source: 
-    value: 0.25
+    value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -6842,11 +6842,11 @@ AnimatorStateMachine:
   - {fileID: 454084659433223790}
   - {fileID: 4129343441323514358}
   m_StateMachineTransitions:
-  - first: {fileID: -8156064800377935274}
-    second: []
   - first: {fileID: 3703670650162939496}
     second: []
   - first: {fileID: 4008653311332064762}
+    second: []
+  - first: {fileID: -8156064800377935274}
     second: []
   - first: {fileID: 8080771168348287593}
     second: []
@@ -23705,17 +23705,17 @@ AnimatorStateMachine:
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: -9048791464108434735}
-    second: []
-  - first: {fileID: -5658404422286210606}
-    second: []
-  - first: {fileID: -1378276213811836250}
-    second: []
   - first: {fileID: -759876538655877824}
     second: []
   - first: {fileID: 3515028782986398464}
     second: []
+  - first: {fileID: -1378276213811836250}
+    second: []
   - first: {fileID: 8355064811051131400}
+    second: []
+  - first: {fileID: -9048791464108434735}
+    second: []
+  - first: {fileID: -5658404422286210606}
     second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 420, y: -60, z: 0}
@@ -26928,8 +26928,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: 3511539817069183743}
   - {fileID: 269674701941887821}
-  m_StateMachineBehaviours:
-  - {fileID: -84956682241607598}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -51153,29 +51152,6 @@ BlendTree:
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
---- !u!114 &-84956682241607598
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -646210727, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trackingHead: 2
-  trackingLeftHand: 2
-  trackingRightHand: 2
-  trackingHip: 2
-  trackingLeftFoot: 2
-  trackingRightFoot: 2
-  trackingLeftFingers: 2
-  trackingRightFingers: 2
-  trackingEyes: 0
-  trackingMouth: 0
-  debugString: 
 --- !u!1102 &-84186999768510630
 AnimatorState:
   serializedVersion: 6
@@ -52065,9 +52041,9 @@ AnimatorStateMachine:
   m_EntryTransitions:
   - {fileID: 2879761939603490438}
   m_StateMachineTransitions:
-  - first: {fileID: -8759100019272663160}
-    second: []
   - first: {fileID: -3791938668790882941}
+    second: []
+  - first: {fileID: -8759100019272663160}
     second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 270, y: -150, z: 0}
@@ -61276,11 +61252,11 @@ AnimatorStateMachine:
   m_StateMachineTransitions:
   - first: {fileID: -7921373087287456426}
     second: []
+  - first: {fileID: -113784911394188336}
+    second: []
   - first: {fileID: -7739087228145072711}
     second: []
   - first: {fileID: -3640209282610451954}
-    second: []
-  - first: {fileID: -113784911394188336}
     second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 180, y: 120, z: 0}
@@ -77757,9 +77733,9 @@ AnimatorStateMachine:
     second: []
   - first: {fileID: 4491928845022674956}
     second: []
-  - first: {fileID: 4523199013802017077}
-    second: []
   - first: {fileID: 6071041194774115271}
+    second: []
+  - first: {fileID: 4523199013802017077}
     second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 70, y: -300, z: 0}
@@ -96218,295 +96194,295 @@ AnimatorStateMachine:
   - {fileID: 8860451966552084686}
   - {fileID: -1797695755563555389}
   m_StateMachineTransitions:
-  - first: {fileID: -9050739907233261665}
-    second: []
-  - first: {fileID: -8999661923182545558}
-    second: []
-  - first: {fileID: -8895579200227987936}
-    second: []
-  - first: {fileID: -8794075734263312415}
-    second: []
-  - first: {fileID: -8782575784166492299}
-    second: []
-  - first: {fileID: -8396728124636808043}
-    second: []
-  - first: {fileID: -8254193500280016601}
-    second: []
-  - first: {fileID: -8050455506096705017}
-    second: []
-  - first: {fileID: -8031817981763752862}
-    second: []
-  - first: {fileID: -8026779446397684043}
-    second: []
-  - first: {fileID: -7980236412612644173}
-    second: []
-  - first: {fileID: -7739217668281066031}
-    second: []
-  - first: {fileID: -7738271737745218366}
-    second: []
-  - first: {fileID: -7669168955338324425}
-    second: []
-  - first: {fileID: -7666866270916304978}
-    second: []
-  - first: {fileID: -7489540870009440747}
-    second: []
-  - first: {fileID: -7428733603096044757}
-    second: []
-  - first: {fileID: -7287000694909706845}
-    second: []
-  - first: {fileID: -7262993054781321668}
-    second: []
-  - first: {fileID: -7176302019815472431}
+  - first: {fileID: -3902548943386404526}
     second: []
   - first: {fileID: -6683923462480645349}
     second: []
-  - first: {fileID: -6668708877948515576}
+  - first: {fileID: 7318523215442522976}
     second: []
-  - first: {fileID: -6519142469879784884}
+  - first: {fileID: 5405963995392152253}
     second: []
-  - first: {fileID: -6351692127526991572}
+  - first: {fileID: -3240294119697596916}
+    second: []
+  - first: {fileID: -2086967856935747551}
+    second: []
+  - first: {fileID: 1850235730867603849}
+    second: []
+  - first: {fileID: -9050739907233261665}
+    second: []
+  - first: {fileID: -3476794017146442940}
+    second: []
+  - first: {fileID: -2530125242901732701}
     second: []
   - first: {fileID: -6350096148583534998}
     second: []
-  - first: {fileID: -6139675708975579825}
+  - first: {fileID: 1340978198782484741}
     second: []
-  - first: {fileID: -6132574887153224351}
+  - first: {fileID: -4179456047219095877}
     second: []
-  - first: {fileID: -5932241828725440496}
+  - first: {fileID: 855522290645482584}
     second: []
-  - first: {fileID: -5863318862954706537}
+  - first: {fileID: -7980236412612644173}
+    second: []
+  - first: {fileID: 5214348640939992033}
+    second: []
+  - first: {fileID: -665459616940496305}
+    second: []
+  - first: {fileID: 717461510106841384}
+    second: []
+  - first: {fileID: 3736555044208221519}
+    second: []
+  - first: {fileID: -8396728124636808043}
+    second: []
+  - first: {fileID: -7262993054781321668}
+    second: []
+  - first: {fileID: 5443585254926671364}
+    second: []
+  - first: {fileID: -7489540870009440747}
+    second: []
+  - first: {fileID: 4469148941888148922}
+    second: []
+  - first: {fileID: -421704704724910670}
+    second: []
+  - first: {fileID: 6999772051174087433}
+    second: []
+  - first: {fileID: 5542223568287951547}
+    second: []
+  - first: {fileID: -4382057522790619790}
+    second: []
+  - first: {fileID: -2088146110065391303}
+    second: []
+  - first: {fileID: 7232014008909568184}
+    second: []
+  - first: {fileID: 1276968953087933717}
+    second: []
+  - first: {fileID: 1400652324655539719}
+    second: []
+  - first: {fileID: 6701789269346260412}
+    second: []
+  - first: {fileID: -1771225094456758777}
+    second: []
+  - first: {fileID: 470860645793678215}
+    second: []
+  - first: {fileID: 7845913946710116172}
+    second: []
+  - first: {fileID: -3960611117735990975}
+    second: []
+  - first: {fileID: 3780249946244083317}
+    second: []
+  - first: {fileID: -2331771270081642395}
+    second: []
+  - first: {fileID: 6935088734855035261}
+    second: []
+  - first: {fileID: -2592283926657033397}
     second: []
   - first: {fileID: -5762499427187614164}
     second: []
   - first: {fileID: -5754848563138318962}
     second: []
-  - first: {fileID: -5675490985435094182}
-    second: []
-  - first: {fileID: -5445256054826401251}
-    second: []
-  - first: {fileID: -5384677460846819851}
-    second: []
-  - first: {fileID: -5368918058172923078}
-    second: []
-  - first: {fileID: -5356431018348557074}
-    second: []
-  - first: {fileID: -5199900267806753050}
-    second: []
-  - first: {fileID: -5187567323463543426}
-    second: []
-  - first: {fileID: -5104560389927725179}
-    second: []
   - first: {fileID: -4742916917052021233}
     second: []
-  - first: {fileID: -4696306756865031579}
-    second: []
-  - first: {fileID: -4382057522790619790}
-    second: []
-  - first: {fileID: -4276042032414881055}
-    second: []
-  - first: {fileID: -4236441608665781282}
-    second: []
-  - first: {fileID: -4179456047219095877}
-    second: []
-  - first: {fileID: -3983965803454826083}
-    second: []
-  - first: {fileID: -3960611117735990975}
-    second: []
-  - first: {fileID: -3902548943386404526}
-    second: []
-  - first: {fileID: -3817985630687487710}
-    second: []
-  - first: {fileID: -3762972781279325989}
-    second: []
-  - first: {fileID: -3690714732478969379}
-    second: []
-  - first: {fileID: -3649637206898492669}
-    second: []
-  - first: {fileID: -3476794017146442940}
-    second: []
-  - first: {fileID: -3389018913234297940}
-    second: []
-  - first: {fileID: -3380468030323242617}
-    second: []
-  - first: {fileID: -3240294119697596916}
-    second: []
-  - first: {fileID: -2922858027939274610}
-    second: []
-  - first: {fileID: -2835709502807071923}
-    second: []
-  - first: {fileID: -2833902968234244591}
-    second: []
-  - first: {fileID: -2592283926657033397}
-    second: []
-  - first: {fileID: -2530125242901732701}
-    second: []
-  - first: {fileID: -2351016208038042459}
-    second: []
-  - first: {fileID: -2331771270081642395}
-    second: []
-  - first: {fileID: -2088146110065391303}
-    second: []
-  - first: {fileID: -2086967856935747551}
-    second: []
-  - first: {fileID: -1978518058339501766}
-    second: []
-  - first: {fileID: -1775449649501700147}
-    second: []
-  - first: {fileID: -1771225094456758777}
-    second: []
-  - first: {fileID: -1648007666896567089}
-    second: []
-  - first: {fileID: -1622454446838267598}
-    second: []
-  - first: {fileID: -1441848050732527180}
-    second: []
-  - first: {fileID: -1398286922527679861}
-    second: []
-  - first: {fileID: -1303291865249621936}
-    second: []
-  - first: {fileID: -1299709816769632896}
-    second: []
-  - first: {fileID: -1055366534111742428}
-    second: []
-  - first: {fileID: -736834320207588019}
-    second: []
-  - first: {fileID: -665459616940496305}
-    second: []
-  - first: {fileID: -443125269446252867}
-    second: []
-  - first: {fileID: -421704704724910670}
-    second: []
-  - first: {fileID: -260847198682502413}
-    second: []
-  - first: {fileID: -180912056963440462}
-    second: []
-  - first: {fileID: 310063547561551874}
-    second: []
-  - first: {fileID: 470860645793678215}
-    second: []
-  - first: {fileID: 615922211363401121}
-    second: []
-  - first: {fileID: 624096637529798903}
-    second: []
-  - first: {fileID: 717461510106841384}
-    second: []
-  - first: {fileID: 773651053726203108}
-    second: []
-  - first: {fileID: 850491964814452148}
-    second: []
-  - first: {fileID: 855522290645482584}
-    second: []
-  - first: {fileID: 861002783687335689}
-    second: []
-  - first: {fileID: 1045087006170983873}
-    second: []
-  - first: {fileID: 1276968953087933717}
-    second: []
-  - first: {fileID: 1340978198782484741}
-    second: []
-  - first: {fileID: 1384227253186172329}
-    second: []
-  - first: {fileID: 1400652324655539719}
-    second: []
-  - first: {fileID: 1813502307032323244}
-    second: []
-  - first: {fileID: 1850235730867603849}
-    second: []
-  - first: {fileID: 2213248585804720086}
-    second: []
-  - first: {fileID: 2274752521816508549}
-    second: []
-  - first: {fileID: 2483140633086885779}
-    second: []
-  - first: {fileID: 2564793714126139022}
+  - first: {fileID: 3384086156820794269}
     second: []
   - first: {fileID: 2594220753836979721}
     second: []
   - first: {fileID: 2800467797791391519}
     second: []
-  - first: {fileID: 2934800977193969616}
+  - first: {fileID: 615922211363401121}
     second: []
-  - first: {fileID: 3017993656686261127}
+  - first: {fileID: -2351016208038042459}
     second: []
-  - first: {fileID: 3137656519610187606}
-    second: []
-  - first: {fileID: 3228136193940169055}
-    second: []
-  - first: {fileID: 3384086156820794269}
-    second: []
-  - first: {fileID: 3586799265326786995}
-    second: []
-  - first: {fileID: 3619726725046927368}
-    second: []
-  - first: {fileID: 3736555044208221519}
-    second: []
-  - first: {fileID: 3780249946244083317}
-    second: []
-  - first: {fileID: 4469148941888148922}
+  - first: {fileID: -5863318862954706537}
     second: []
   - first: {fileID: 4486156789727713612}
     second: []
-  - first: {fileID: 4621016021509561100}
+  - first: {fileID: -1299709816769632896}
     second: []
-  - first: {fileID: 4731915126115261707}
+  - first: {fileID: -8031817981763752862}
     second: []
-  - first: {fileID: 5214348640939992033}
+  - first: {fileID: -1775449649501700147}
     second: []
-  - first: {fileID: 5257892764500375596}
+  - first: {fileID: -1441848050732527180}
     second: []
-  - first: {fileID: 5397987569880396698}
+  - first: {fileID: 310063547561551874}
     second: []
-  - first: {fileID: 5405963995392152253}
-    second: []
-  - first: {fileID: 5443585254926671364}
-    second: []
-  - first: {fileID: 5542223568287951547}
-    second: []
-  - first: {fileID: 5879194207090283412}
-    second: []
-  - first: {fileID: 6069016764455215365}
-    second: []
-  - first: {fileID: 6122150790783184754}
-    second: []
-  - first: {fileID: 6290970239313628526}
-    second: []
-  - first: {fileID: 6320808804376436320}
-    second: []
-  - first: {fileID: 6360317494005673808}
-    second: []
-  - first: {fileID: 6379318020482037379}
-    second: []
-  - first: {fileID: 6457736849189798532}
-    second: []
-  - first: {fileID: 6488510183828880065}
-    second: []
-  - first: {fileID: 6701789269346260412}
-    second: []
-  - first: {fileID: 6935088734855035261}
-    second: []
-  - first: {fileID: 6999772051174087433}
-    second: []
-  - first: {fileID: 7177181637819800663}
-    second: []
-  - first: {fileID: 7226129471139282402}
-    second: []
-  - first: {fileID: 7232014008909568184}
-    second: []
-  - first: {fileID: 7318523215442522976}
+  - first: {fileID: 1384227253186172329}
     second: []
   - first: {fileID: 7362320299875954087}
     second: []
-  - first: {fileID: 7499504067716570140}
+  - first: {fileID: 3137656519610187606}
+    second: []
+  - first: {fileID: 2564793714126139022}
+    second: []
+  - first: {fileID: -8794075734263312415}
+    second: []
+  - first: {fileID: -3649637206898492669}
+    second: []
+  - first: {fileID: 850491964814452148}
+    second: []
+  - first: {fileID: -443125269446252867}
+    second: []
+  - first: {fileID: -6668708877948515576}
+    second: []
+  - first: {fileID: -1648007666896567089}
+    second: []
+  - first: {fileID: -8254193500280016601}
     second: []
   - first: {fileID: 7554419340119990326}
     second: []
-  - first: {fileID: 7845913946710116172}
+  - first: {fileID: 5397987569880396698}
     second: []
-  - first: {fileID: 7902436315214306531}
+  - first: {fileID: -1622454446838267598}
+    second: []
+  - first: {fileID: -1055366534111742428}
+    second: []
+  - first: {fileID: -4696306756865031579}
+    second: []
+  - first: {fileID: -6132574887153224351}
+    second: []
+  - first: {fileID: 3586799265326786995}
+    second: []
+  - first: {fileID: -180912056963440462}
+    second: []
+  - first: {fileID: -1303291865249621936}
+    second: []
+  - first: {fileID: -7739217668281066031}
+    second: []
+  - first: {fileID: 6122150790783184754}
+    second: []
+  - first: {fileID: -8895579200227987936}
+    second: []
+  - first: {fileID: -8782575784166492299}
+    second: []
+  - first: {fileID: -5445256054826401251}
+    second: []
+  - first: {fileID: -5675490985435094182}
+    second: []
+  - first: {fileID: -5187567323463543426}
+    second: []
+  - first: {fileID: 2213248585804720086}
+    second: []
+  - first: {fileID: -7669168955338324425}
+    second: []
+  - first: {fileID: -8999661923182545558}
+    second: []
+  - first: {fileID: 6320808804376436320}
+    second: []
+  - first: {fileID: 2274752521816508549}
+    second: []
+  - first: {fileID: 9202355122731015827}
+    second: []
+  - first: {fileID: -7287000694909706845}
+    second: []
+  - first: {fileID: -260847198682502413}
+    second: []
+  - first: {fileID: 1813502307032323244}
+    second: []
+  - first: {fileID: -4276042032414881055}
+    second: []
+  - first: {fileID: -736834320207588019}
+    second: []
+  - first: {fileID: -8026779446397684043}
+    second: []
+  - first: {fileID: 861002783687335689}
+    second: []
+  - first: {fileID: -5384677460846819851}
+    second: []
+  - first: {fileID: 7226129471139282402}
+    second: []
+  - first: {fileID: 7177181637819800663}
+    second: []
+  - first: {fileID: -6139675708975579825}
+    second: []
+  - first: {fileID: -4236441608665781282}
+    second: []
+  - first: {fileID: -1978518058339501766}
+    second: []
+  - first: {fileID: 6290970239313628526}
+    second: []
+  - first: {fileID: -7738271737745218366}
+    second: []
+  - first: {fileID: -3817985630687487710}
+    second: []
+  - first: {fileID: 773651053726203108}
+    second: []
+  - first: {fileID: -3690714732478969379}
+    second: []
+  - first: {fileID: -6519142469879784884}
     second: []
   - first: {fileID: 7930028770084172294}
     second: []
-  - first: {fileID: 9202355122731015827}
+  - first: {fileID: -2835709502807071923}
+    second: []
+  - first: {fileID: 6360317494005673808}
+    second: []
+  - first: {fileID: 3017993656686261127}
+    second: []
+  - first: {fileID: -6351692127526991572}
+    second: []
+  - first: {fileID: 6379318020482037379}
+    second: []
+  - first: {fileID: -1398286922527679861}
+    second: []
+  - first: {fileID: 6457736849189798532}
+    second: []
+  - first: {fileID: 7902436315214306531}
+    second: []
+  - first: {fileID: -3389018913234297940}
+    second: []
+  - first: {fileID: 624096637529798903}
+    second: []
+  - first: {fileID: -3762972781279325989}
+    second: []
+  - first: {fileID: 7499504067716570140}
+    second: []
+  - first: {fileID: 4621016021509561100}
+    second: []
+  - first: {fileID: 6488510183828880065}
+    second: []
+  - first: {fileID: 2483140633086885779}
+    second: []
+  - first: {fileID: 1045087006170983873}
+    second: []
+  - first: {fileID: -5199900267806753050}
+    second: []
+  - first: {fileID: 4731915126115261707}
+    second: []
+  - first: {fileID: -5932241828725440496}
+    second: []
+  - first: {fileID: 6069016764455215365}
+    second: []
+  - first: {fileID: -3983965803454826083}
+    second: []
+  - first: {fileID: 5257892764500375596}
+    second: []
+  - first: {fileID: 5879194207090283412}
+    second: []
+  - first: {fileID: -5104560389927725179}
+    second: []
+  - first: {fileID: -7666866270916304978}
+    second: []
+  - first: {fileID: -8050455506096705017}
+    second: []
+  - first: {fileID: 3619726725046927368}
+    second: []
+  - first: {fileID: -3380468030323242617}
+    second: []
+  - first: {fileID: -2922858027939274610}
+    second: []
+  - first: {fileID: -7428733603096044757}
+    second: []
+  - first: {fileID: 3228136193940169055}
+    second: []
+  - first: {fileID: -7176302019815472431}
+    second: []
+  - first: {fileID: 2934800977193969616}
+    second: []
+  - first: {fileID: -5368918058172923078}
+    second: []
+  - first: {fileID: -2833902968234244591}
+    second: []
+  - first: {fileID: -5356431018348557074}
     second: []
   m_StateMachineBehaviours:
   - {fileID: 1847661071242460989}

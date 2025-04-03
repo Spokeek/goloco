@@ -191,7 +191,7 @@ AnimatorState:
   - {fileID: 5798261035626785193}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -395,7 +395,7 @@ AnimatorState:
   - {fileID: 3124915334593297638}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -544,7 +544,7 @@ AnimatorState:
   - {fileID: -4055791719656670867}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -743,7 +743,7 @@ MonoBehaviour:
   - type: 0
     name: Go/Float
     source: 
-    value: 0.25
+    value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -771,7 +771,7 @@ AnimatorState:
   - {fileID: -3778851327776066657}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -800,7 +800,7 @@ AnimatorState:
   - {fileID: 8978457366644278476}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -1455,7 +1455,7 @@ AnimatorState:
   - {fileID: 6016600189761809714}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -1484,7 +1484,7 @@ AnimatorState:
   - {fileID: -2407238308274474009}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -1604,7 +1604,7 @@ AnimatorState:
   - {fileID: -2346111436106461526}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -1792,7 +1792,7 @@ AnimatorState:
   - {fileID: 7154826217766934113}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -1866,7 +1866,7 @@ AnimatorState:
   - {fileID: 4365347334393474088}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -1939,7 +1939,7 @@ AnimatorState:
   - {fileID: -4140602158850711166}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -2017,7 +2017,7 @@ AnimatorState:
   - {fileID: -2213351473340441619}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -2107,7 +2107,7 @@ AnimatorState:
   - {fileID: 3712562373380486389}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -2379,7 +2379,7 @@ AnimatorState:
   - {fileID: -6271036377991835991}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -2408,7 +2408,7 @@ AnimatorState:
   - {fileID: 3904236096167688753}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -2537,7 +2537,7 @@ AnimatorState:
   - {fileID: 8455149575937808982}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -2819,7 +2819,7 @@ AnimatorState:
   - {fileID: 4567323899007584915}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -3074,7 +3074,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -3156,7 +3156,7 @@ AnimatorState:
   - {fileID: 279526332341323087}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -3282,7 +3282,7 @@ AnimatorState:
   - {fileID: 8352095586359856114}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -3350,7 +3350,7 @@ AnimatorState:
   - {fileID: -3836333711739230771}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -3566,7 +3566,7 @@ AnimatorState:
   - {fileID: -5540461741427794819}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -3963,7 +3963,7 @@ AnimatorState:
   - {fileID: -5576882870665109767}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -4035,7 +4035,7 @@ AnimatorState:
   - {fileID: 1248885088388334657}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -4325,7 +4325,7 @@ AnimatorState:
   - {fileID: 3861265015585902999}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -4386,7 +4386,7 @@ AnimatorState:
   - {fileID: 3086359546005520447}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -4415,7 +4415,7 @@ AnimatorState:
   - {fileID: 4281877048788070528}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -4489,7 +4489,7 @@ AnimatorState:
   - {fileID: -5421491539145165747}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -4518,7 +4518,7 @@ AnimatorState:
   - {fileID: -6604642266012778346}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -4876,7 +4876,7 @@ AnimatorState:
   - {fileID: 366954025562474181}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -4906,7 +4906,7 @@ AnimatorState:
   - {fileID: 8041268074334387872}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -5059,7 +5059,7 @@ AnimatorState:
   - {fileID: -8471729541099305711}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -5459,7 +5459,7 @@ AnimatorState:
   - {fileID: 5681194634260904727}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -5689,7 +5689,7 @@ AnimatorState:
   - {fileID: 7585453260429065529}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -5762,7 +5762,7 @@ AnimatorState:
   - {fileID: 9032720062504166260}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -5791,7 +5791,7 @@ AnimatorState:
   - {fileID: -9196315694839672487}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -5820,7 +5820,7 @@ AnimatorState:
   - {fileID: 3099590610948954376}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -5905,7 +5905,7 @@ AnimatorState:
   - {fileID: 5343073020213620522}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -5998,7 +5998,7 @@ AnimatorState:
   - {fileID: 8240583481560679649}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -6027,7 +6027,7 @@ AnimatorState:
   - {fileID: -2248046201952216432}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -6056,7 +6056,7 @@ AnimatorState:
   - {fileID: 2663377750378166623}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -6205,7 +6205,7 @@ AnimatorState:
   - {fileID: -7009492190893935237}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -6618,7 +6618,7 @@ AnimatorState:
   - {fileID: 5150967851521576435}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -6842,11 +6842,11 @@ AnimatorStateMachine:
   - {fileID: 454084659433223790}
   - {fileID: 4129343441323514358}
   m_StateMachineTransitions:
-  - first: {fileID: -8156064800377935274}
-    second: []
   - first: {fileID: 3703670650162939496}
     second: []
   - first: {fileID: 4008653311332064762}
+    second: []
+  - first: {fileID: -8156064800377935274}
     second: []
   - first: {fileID: 8080771168348287593}
     second: []
@@ -7580,7 +7580,7 @@ AnimatorState:
   - {fileID: -2572781390486643774}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -7705,7 +7705,7 @@ AnimatorState:
   - {fileID: 4903291323713032341}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -8101,7 +8101,7 @@ AnimatorState:
   - {fileID: 8644508651893858698}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -8130,7 +8130,7 @@ AnimatorState:
   - {fileID: 5451671172624969354}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -8394,7 +8394,7 @@ AnimatorState:
   - {fileID: 4900182359253811690}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -8528,7 +8528,7 @@ AnimatorState:
   - {fileID: 2479880340253488275}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -8612,7 +8612,7 @@ AnimatorState:
   - {fileID: 4595385586464681311}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -8759,7 +8759,7 @@ AnimatorState:
   - {fileID: -3779225534162025702}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -8985,7 +8985,7 @@ AnimatorState:
   - {fileID: -4205392686577914922}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -9169,7 +9169,7 @@ AnimatorState:
   - {fileID: 3469381164083302490}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -9198,7 +9198,7 @@ AnimatorState:
   - {fileID: -8154819534628914269}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -9338,7 +9338,7 @@ AnimatorState:
   - {fileID: -6000606890844265946}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -9547,7 +9547,7 @@ AnimatorState:
   - {fileID: 924075358238120622}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -9665,7 +9665,7 @@ AnimatorState:
   - {fileID: 2759905498297959856}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -9746,7 +9746,7 @@ AnimatorState:
   - {fileID: -451318618441066324}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -9773,7 +9773,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -10125,7 +10125,7 @@ AnimatorState:
   - {fileID: -3639645680398508538}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -10206,7 +10206,7 @@ AnimatorState:
   - {fileID: 8212679179204023137}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -10476,7 +10476,7 @@ AnimatorState:
   - {fileID: -3268340830860028698}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -10776,7 +10776,7 @@ AnimatorState:
   - {fileID: 6775598349202103304}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -10930,7 +10930,7 @@ AnimatorState:
   - {fileID: 7372825961376921017}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -10976,7 +10976,7 @@ AnimatorState:
   - {fileID: -3352685339517467754}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -11075,7 +11075,7 @@ AnimatorState:
   - {fileID: -5165998538850971863}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -11339,7 +11339,7 @@ AnimatorState:
   - {fileID: -5290111986586466275}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -11368,7 +11368,7 @@ AnimatorState:
   - {fileID: -8690031031950987969}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -11474,7 +11474,7 @@ AnimatorState:
   - {fileID: 7403715342546011146}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -11531,7 +11531,7 @@ AnimatorState:
   - {fileID: 4647035348741508460}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -11853,7 +11853,7 @@ AnimatorState:
   - {fileID: 3871764563982177295}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -12156,7 +12156,7 @@ AnimatorState:
   - {fileID: -6993071066078011557}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -12261,7 +12261,7 @@ AnimatorState:
   - {fileID: -3674473811625990459}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -12290,7 +12290,7 @@ AnimatorState:
   - {fileID: 7688752752764851315}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -12575,7 +12575,7 @@ AnimatorState:
   - {fileID: -3853552595306149552}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -12802,7 +12802,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -13034,7 +13034,7 @@ AnimatorState:
   - {fileID: 8653281555869403784}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -13083,7 +13083,7 @@ AnimatorState:
   - {fileID: -8923656070950263081}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -13112,7 +13112,7 @@ AnimatorState:
   - {fileID: 288869249948611327}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -13510,7 +13510,7 @@ AnimatorState:
   - {fileID: -3712882815091922159}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -13890,7 +13890,7 @@ AnimatorState:
   - {fileID: 4396381819558422470}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -13973,7 +13973,7 @@ AnimatorState:
   - {fileID: 8407434678572684496}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -14220,7 +14220,7 @@ AnimatorState:
   - {fileID: 5880924199376616910}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -14344,7 +14344,7 @@ AnimatorState:
   - {fileID: -1247669994145106331}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -14373,7 +14373,7 @@ AnimatorState:
   - {fileID: 7198504604694760082}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -14427,7 +14427,7 @@ AnimatorState:
   - {fileID: -4595498846205294151}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -14981,7 +14981,7 @@ AnimatorState:
   - {fileID: -3601204135107353392}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -15094,7 +15094,7 @@ AnimatorState:
   - {fileID: -4136637538320561627}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -15381,7 +15381,7 @@ AnimatorState:
   - {fileID: 1254923523094566809}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -15423,7 +15423,7 @@ AnimatorState:
   - {fileID: 8309801693379345869}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -15492,7 +15492,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -15800,7 +15800,7 @@ AnimatorState:
   - {fileID: 6769692883734869829}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -15956,7 +15956,7 @@ AnimatorState:
   - {fileID: 233837845337479990}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -16009,7 +16009,7 @@ AnimatorState:
   - {fileID: 1616211215942902898}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -16038,7 +16038,7 @@ AnimatorState:
   - {fileID: -5586996791148467956}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -16318,7 +16318,7 @@ AnimatorState:
   - {fileID: -4208066678708806839}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -16573,7 +16573,7 @@ AnimatorState:
   - {fileID: -1274898191792845432}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -16602,7 +16602,7 @@ AnimatorState:
   - {fileID: 6371328919812554620}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -16899,7 +16899,7 @@ AnimatorState:
   - {fileID: 420005347994889283}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -16992,7 +16992,7 @@ AnimatorState:
   - {fileID: -5249141755493540374}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -17040,7 +17040,7 @@ AnimatorState:
   - {fileID: -1805353065411581456}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -17069,7 +17069,7 @@ AnimatorState:
   - {fileID: 7472347401995719564}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -17098,7 +17098,7 @@ AnimatorState:
   - {fileID: -4829749092616893512}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -17152,7 +17152,7 @@ AnimatorState:
   - {fileID: -1607018375653001709}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -17246,7 +17246,7 @@ AnimatorState:
   - {fileID: 1608219285416956726}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -17275,7 +17275,7 @@ AnimatorState:
   - {fileID: -1818351722728336238}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -17395,7 +17395,7 @@ AnimatorState:
   - {fileID: 4760590601822269680}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -17429,7 +17429,7 @@ AnimatorState:
   - {fileID: -2423620848663477993}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -17810,7 +17810,7 @@ AnimatorState:
   - {fileID: 236126581799732607}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -18128,7 +18128,7 @@ AnimatorState:
   - {fileID: 4101329051025697143}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -18325,7 +18325,7 @@ AnimatorState:
   - {fileID: 7312909631194351368}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -18409,7 +18409,7 @@ AnimatorState:
   - {fileID: -316090943426140451}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -18438,7 +18438,7 @@ AnimatorState:
   - {fileID: 3976801425174163586}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -18826,7 +18826,7 @@ AnimatorState:
   - {fileID: -2532331363970282788}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -18881,7 +18881,7 @@ AnimatorState:
   - {fileID: 4887302316694927317}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -19268,7 +19268,7 @@ AnimatorState:
   - {fileID: 7870214092219709538}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -19297,7 +19297,7 @@ AnimatorState:
   - {fileID: -7452205347633143815}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -19517,7 +19517,7 @@ AnimatorState:
   - {fileID: -5024135527347258921}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -19546,7 +19546,7 @@ AnimatorState:
   - {fileID: 7288266515672533163}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -19985,7 +19985,7 @@ AnimatorState:
   - {fileID: -8025700559088053018}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -20306,7 +20306,7 @@ AnimatorState:
   - {fileID: -3586464888426495345}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -20352,7 +20352,7 @@ AnimatorState:
   - {fileID: -8718151197919717317}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -20468,7 +20468,7 @@ AnimatorState:
   - {fileID: -3021415049484377454}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -20703,7 +20703,7 @@ AnimatorState:
   - {fileID: -6384583543603243694}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -20759,7 +20759,7 @@ AnimatorState:
   - {fileID: -1693723788815128438}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -20828,7 +20828,7 @@ AnimatorState:
   - {fileID: 3059404447635075589}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -21089,7 +21089,7 @@ AnimatorState:
   - {fileID: -180715830426222376}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -21137,7 +21137,7 @@ AnimatorState:
   - {fileID: -6066494350688228253}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -21201,7 +21201,7 @@ AnimatorState:
   - {fileID: -4394104306018032739}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -21250,7 +21250,7 @@ AnimatorState:
   - {fileID: 8587991835336859655}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -21453,7 +21453,7 @@ AnimatorState:
   - {fileID: -3276130664143296684}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -21642,7 +21642,7 @@ AnimatorState:
   - {fileID: 4166058824191767610}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -21671,7 +21671,7 @@ AnimatorState:
   - {fileID: -1264048664534253241}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -21906,7 +21906,7 @@ AnimatorState:
   - {fileID: 2653934646390282647}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -22128,7 +22128,7 @@ AnimatorState:
   - {fileID: -752680670452698703}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -22157,7 +22157,7 @@ AnimatorState:
   - {fileID: 5334377838169728097}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -22479,7 +22479,7 @@ AnimatorState:
   - {fileID: 5580119147844251070}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -22528,7 +22528,7 @@ AnimatorState:
   - {fileID: 8409795779798569715}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -22657,7 +22657,7 @@ AnimatorState:
   - {fileID: -3363226164049949009}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -22686,7 +22686,7 @@ AnimatorState:
   - {fileID: -9020030679540384079}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -22740,7 +22740,7 @@ AnimatorState:
   - {fileID: 8896910215985475525}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -22935,7 +22935,7 @@ AnimatorState:
   - {fileID: -4650453317438640663}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -23134,7 +23134,7 @@ AnimatorState:
   - {fileID: -7810483429783679184}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -23183,7 +23183,7 @@ AnimatorState:
   - {fileID: 7021813573361249806}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -23318,7 +23318,7 @@ AnimatorState:
   - {fileID: -7893387444152029614}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -23347,7 +23347,7 @@ AnimatorState:
   - {fileID: -7264647982939010608}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -23439,7 +23439,7 @@ AnimatorState:
   - {fileID: -659724849111868995}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -23705,17 +23705,17 @@ AnimatorStateMachine:
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: -9048791464108434735}
-    second: []
-  - first: {fileID: -5658404422286210606}
-    second: []
-  - first: {fileID: -1378276213811836250}
-    second: []
   - first: {fileID: -759876538655877824}
     second: []
   - first: {fileID: 3515028782986398464}
     second: []
+  - first: {fileID: -1378276213811836250}
+    second: []
   - first: {fileID: 8355064811051131400}
+    second: []
+  - first: {fileID: -9048791464108434735}
+    second: []
+  - first: {fileID: -5658404422286210606}
     second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 420, y: -60, z: 0}
@@ -24107,7 +24107,7 @@ AnimatorState:
   - {fileID: -6732123321764791013}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -24136,7 +24136,7 @@ AnimatorState:
   - {fileID: 5765249311543846465}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -24285,7 +24285,7 @@ AnimatorState:
   - {fileID: -4299504052248095866}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -24371,7 +24371,7 @@ AnimatorState:
   - {fileID: 3472687664295330636}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -24509,7 +24509,7 @@ AnimatorState:
   - {fileID: -3958517168717518767}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -25604,7 +25604,7 @@ AnimatorState:
   - {fileID: 2671217778045065382}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -25633,7 +25633,7 @@ AnimatorState:
   - {fileID: -4390968975846709467}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -25730,7 +25730,7 @@ AnimatorState:
   - {fileID: 7799169141299835506}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -26036,7 +26036,7 @@ AnimatorState:
   - {fileID: -8594347248212135414}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -26081,7 +26081,7 @@ AnimatorState:
   - {fileID: -7892789785999612290}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -26165,7 +26165,7 @@ AnimatorState:
   - {fileID: -8995786405364656866}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -26293,7 +26293,7 @@ AnimatorState:
   - {fileID: -7927494073677589041}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -26422,7 +26422,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -26451,7 +26451,7 @@ AnimatorState:
   - {fileID: -6686434492863185647}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -26511,7 +26511,7 @@ AnimatorState:
   - {fileID: -6231537517127036745}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -26928,11 +26928,10 @@ AnimatorState:
   m_Transitions:
   - {fileID: 3511539817069183743}
   - {fileID: 269674701941887821}
-  m_StateMachineBehaviours:
-  - {fileID: -84956682241607598}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -27271,7 +27270,7 @@ AnimatorState:
   - {fileID: 2699808274631362666}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -27436,7 +27435,7 @@ AnimatorState:
   - {fileID: -1414687429414329521}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -27593,7 +27592,7 @@ AnimatorState:
   - {fileID: -3987857661456149284}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -27776,7 +27775,7 @@ AnimatorState:
   - {fileID: 5459828410640732169}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -27805,7 +27804,7 @@ AnimatorState:
   - {fileID: -5193520843603805736}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -28071,7 +28070,7 @@ AnimatorState:
   - {fileID: -3096442524961443631}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -28154,7 +28153,7 @@ AnimatorState:
   - {fileID: -7761000432173142846}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -28613,7 +28612,7 @@ AnimatorState:
   - {fileID: -2875241081257431511}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -28731,7 +28730,7 @@ AnimatorState:
   - {fileID: 4264170691102170926}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -29005,7 +29004,7 @@ AnimatorState:
   - {fileID: 778398373945252233}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -29154,7 +29153,7 @@ AnimatorState:
   - {fileID: -204199484291762520}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -29266,7 +29265,7 @@ AnimatorState:
   - {fileID: -6177132001292953709}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -29390,7 +29389,7 @@ AnimatorState:
   - {fileID: 386523636614690056}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -29436,7 +29435,7 @@ AnimatorState:
   - {fileID: -1405758251696321702}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -29890,7 +29889,7 @@ AnimatorState:
   - {fileID: -1702157929845697849}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -29919,7 +29918,7 @@ AnimatorState:
   - {fileID: -342386312690522267}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -30022,7 +30021,7 @@ AnimatorState:
   - {fileID: -2290032672344978320}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -30277,7 +30276,7 @@ AnimatorState:
   - {fileID: 2681676299167331807}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -30346,7 +30345,7 @@ AnimatorState:
   - {fileID: 2804837312111389232}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -30457,7 +30456,7 @@ AnimatorState:
   - {fileID: -7263702297210682080}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -30566,7 +30565,7 @@ AnimatorState:
   - {fileID: 8953535802331257685}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -30656,7 +30655,7 @@ AnimatorState:
   - {fileID: -8439827031001419973}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -30757,7 +30756,7 @@ AnimatorState:
   - {fileID: 2257163741278858062}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -31097,7 +31096,7 @@ AnimatorState:
   - {fileID: -7755362522273072898}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -31325,7 +31324,7 @@ AnimatorState:
   - {fileID: 4604601133053524347}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -31512,7 +31511,7 @@ AnimatorState:
   - {fileID: 7566759631171795941}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -31541,7 +31540,7 @@ AnimatorState:
   - {fileID: 6589644111712018012}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -31924,7 +31923,7 @@ AnimatorState:
   - {fileID: 1077541822533216059}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -32021,7 +32020,7 @@ AnimatorState:
   - {fileID: 7098131540239194351}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -32195,7 +32194,7 @@ AnimatorState:
   - {fileID: -1736534830404685764}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -32285,7 +32284,7 @@ AnimatorState:
   - {fileID: -7690784297009242599}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -32315,7 +32314,7 @@ AnimatorState:
   - {fileID: -1926838370881609694}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -32504,7 +32503,7 @@ AnimatorState:
   - {fileID: 468832356172777713}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -32533,7 +32532,7 @@ AnimatorState:
   - {fileID: 6630783508790455384}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -32562,7 +32561,7 @@ AnimatorState:
   - {fileID: -6508162988741371937}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -32650,7 +32649,7 @@ AnimatorState:
   - {fileID: 8991688018933966519}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -32730,7 +32729,7 @@ AnimatorState:
   - {fileID: -2790816944940309554}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -32787,7 +32786,7 @@ AnimatorState:
   - {fileID: 3145196132303057657}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -32843,7 +32842,7 @@ AnimatorState:
   - {fileID: 8728872354162493990}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -33468,7 +33467,7 @@ AnimatorState:
   - {fileID: 7421024185890994766}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -33498,7 +33497,7 @@ AnimatorState:
   - {fileID: -5954544519294303760}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -33616,7 +33615,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -33645,7 +33644,7 @@ AnimatorState:
   - {fileID: 516112253879574064}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -33699,7 +33698,7 @@ AnimatorState:
   - {fileID: 586483654979353959}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -34061,7 +34060,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -34090,7 +34089,7 @@ AnimatorState:
   - {fileID: -2306955531403647609}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -34144,7 +34143,7 @@ AnimatorState:
   - {fileID: -8540397511849761150}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -34173,7 +34172,7 @@ AnimatorState:
   - {fileID: 6849126348966897100}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -34202,7 +34201,7 @@ AnimatorState:
   - {fileID: 3610364403400306398}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -34395,7 +34394,7 @@ AnimatorState:
   - {fileID: -1292508071828045842}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -34667,7 +34666,7 @@ AnimatorState:
   - {fileID: 2591517914888988853}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -34972,7 +34971,7 @@ AnimatorState:
   - {fileID: -2160898871842815703}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -35058,7 +35057,7 @@ AnimatorState:
   - {fileID: 5444083236877981643}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -35164,7 +35163,7 @@ AnimatorState:
   - {fileID: 2710873791999743581}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -35221,7 +35220,7 @@ AnimatorState:
   - {fileID: -2609051561420530136}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -35367,7 +35366,7 @@ AnimatorState:
   - {fileID: 3655724563698881228}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -35423,7 +35422,7 @@ AnimatorState:
   - {fileID: -8413464573246172929}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -35569,7 +35568,7 @@ AnimatorState:
   - {fileID: 8150169355884032058}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -35995,7 +35994,7 @@ AnimatorState:
   - {fileID: 1040316810125093832}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -36076,7 +36075,7 @@ AnimatorState:
   - {fileID: 1871535086853131778}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -36269,7 +36268,7 @@ AnimatorState:
   - {fileID: -3097900703572949898}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -36413,7 +36412,7 @@ AnimatorState:
   - {fileID: -9176976085963300572}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -36779,7 +36778,7 @@ AnimatorState:
   - {fileID: 5974762362336527924}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -36832,7 +36831,7 @@ AnimatorState:
   - {fileID: -2146778032359039766}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -36991,7 +36990,7 @@ AnimatorState:
   - {fileID: 3315432484330028761}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -37020,7 +37019,7 @@ AnimatorState:
   - {fileID: 5466820349514767035}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -37057,7 +37056,7 @@ AnimatorState:
   - {fileID: -6800599341256261290}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -37086,7 +37085,7 @@ AnimatorState:
   - {fileID: 480061339555407397}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -37534,7 +37533,7 @@ AnimatorState:
   - {fileID: 6695777693224444119}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -37711,7 +37710,7 @@ AnimatorState:
   - {fileID: -16258509412879311}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -37740,7 +37739,7 @@ AnimatorState:
   - {fileID: -5473113395319053664}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -37830,7 +37829,7 @@ AnimatorState:
   - {fileID: 3702194535690479202}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -37960,7 +37959,7 @@ AnimatorState:
   - {fileID: 6741470984936384700}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -37989,7 +37988,7 @@ AnimatorState:
   - {fileID: 2549296804996853319}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -38153,7 +38152,7 @@ AnimatorState:
   - {fileID: 7187552442031348529}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -38431,7 +38430,7 @@ AnimatorState:
   - {fileID: 6883429136336469730}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -38499,7 +38498,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -38528,7 +38527,7 @@ AnimatorState:
   - {fileID: 2092986467248223118}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -38673,7 +38672,7 @@ AnimatorState:
   - {fileID: 9221351457333500564}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -38719,7 +38718,7 @@ AnimatorState:
   - {fileID: 7073733463695082009}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -39013,7 +39012,7 @@ AnimatorState:
   - {fileID: -2100644413925279455}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -39414,7 +39413,7 @@ AnimatorState:
   - {fileID: -9029905878997774758}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -39658,7 +39657,7 @@ AnimatorState:
   - {fileID: 5910474032271482216}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -39766,7 +39765,7 @@ AnimatorState:
   - {fileID: 3665919694562661018}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -39822,7 +39821,7 @@ AnimatorState:
   - {fileID: 512344527713525108}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -39916,7 +39915,7 @@ AnimatorState:
   - {fileID: -1579563837028184922}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -39997,7 +39996,7 @@ AnimatorState:
   - {fileID: 4666349367299263189}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -40026,7 +40025,7 @@ AnimatorState:
   - {fileID: -1951613651596547018}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -40302,7 +40301,7 @@ AnimatorState:
   - {fileID: -2496284221749345497}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -40456,7 +40455,7 @@ AnimatorState:
   - {fileID: 5243948984310427738}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -40493,7 +40492,7 @@ AnimatorState:
   - {fileID: -3052703860884286923}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -40780,7 +40779,7 @@ AnimatorState:
   - {fileID: -4981576556705171017}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -40809,7 +40808,7 @@ AnimatorState:
   - {fileID: 6855760721979925832}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -40907,7 +40906,7 @@ AnimatorState:
   - {fileID: 1960104677715768165}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -41128,7 +41127,7 @@ AnimatorState:
   - {fileID: 8073255927139937876}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -41311,7 +41310,7 @@ AnimatorState:
   - {fileID: 4465536187003313883}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -41658,7 +41657,7 @@ AnimatorState:
   - {fileID: -3838953430352624677}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -41703,7 +41702,7 @@ AnimatorState:
   - {fileID: -5052459359935674691}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -41930,7 +41929,7 @@ AnimatorState:
   - {fileID: -1901201958041873882}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -42003,7 +42002,7 @@ AnimatorState:
   - {fileID: 8489383615306674073}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -42129,7 +42128,7 @@ AnimatorState:
   - {fileID: -4745153438718636673}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -42404,7 +42403,7 @@ AnimatorState:
   - {fileID: -1998827775172717406}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -42488,7 +42487,7 @@ AnimatorState:
   - {fileID: -5216643332811073766}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -42545,7 +42544,7 @@ AnimatorState:
   - {fileID: -6294921462090765331}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -42627,7 +42626,7 @@ AnimatorState:
   - {fileID: 7703003120461033800}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -42888,7 +42887,7 @@ AnimatorState:
   - {fileID: 471697247034299252}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -43798,7 +43797,7 @@ AnimatorState:
   - {fileID: 8034174998966581133}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -43948,7 +43947,7 @@ AnimatorState:
   - {fileID: 8391842964428117893}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -44264,7 +44263,7 @@ AnimatorState:
   - {fileID: -6896086661131144151}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -44442,7 +44441,7 @@ AnimatorState:
   - {fileID: -8943085306399982411}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -44544,7 +44543,7 @@ AnimatorState:
   - {fileID: -29354564139622027}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -44755,7 +44754,7 @@ AnimatorState:
   - {fileID: -3215031449088365939}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -45581,7 +45580,7 @@ AnimatorState:
   - {fileID: -8829681559836038406}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -46149,7 +46148,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -46303,7 +46302,7 @@ AnimatorState:
   - {fileID: 7788334770636292719}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -46409,7 +46408,7 @@ AnimatorState:
   - {fileID: 7724471253878582202}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -46565,7 +46564,7 @@ AnimatorState:
   - {fileID: 5216681654358624447}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -46594,7 +46593,7 @@ AnimatorState:
   - {fileID: 958933003374459552}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -46651,7 +46650,7 @@ AnimatorState:
   - {fileID: -3461804668129431091}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -46711,7 +46710,7 @@ AnimatorState:
   - {fileID: 9107476675507424651}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -46779,7 +46778,7 @@ AnimatorState:
   - {fileID: -823293670108556033}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -46900,7 +46899,7 @@ AnimatorState:
   - {fileID: 8235898158916832058}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -46928,7 +46927,7 @@ AnimatorState:
   - {fileID: -7799788829105079692}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -47136,7 +47135,7 @@ AnimatorState:
   - {fileID: 2917939476308627626}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -47227,7 +47226,7 @@ AnimatorState:
   - {fileID: -6031321582778112000}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -47308,7 +47307,7 @@ AnimatorState:
   - {fileID: 5497842292335476887}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -47470,7 +47469,7 @@ AnimatorState:
   - {fileID: -7122536941345518259}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -47579,7 +47578,7 @@ AnimatorState:
   - {fileID: -2055525158222677777}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -47774,7 +47773,7 @@ AnimatorState:
   - {fileID: -3793057790066032657}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -47925,7 +47924,7 @@ AnimatorState:
   - {fileID: -376796853763933563}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -48018,7 +48017,7 @@ AnimatorState:
   - {fileID: 1060073485337968662}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -48405,7 +48404,7 @@ AnimatorState:
   - {fileID: 7050453781012136077}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -48495,7 +48494,7 @@ AnimatorState:
   - {fileID: -6408087173677511032}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -49075,7 +49074,7 @@ AnimatorState:
   - {fileID: -5223614861399694723}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -49493,7 +49492,7 @@ AnimatorState:
   - {fileID: 4296166716622619981}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -49566,7 +49565,7 @@ AnimatorState:
   - {fileID: -4473240743190647479}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -49595,7 +49594,7 @@ AnimatorState:
   - {fileID: 4665728906103704855}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -49693,7 +49692,7 @@ AnimatorState:
   - {fileID: 1953103184853572482}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -49722,7 +49721,7 @@ AnimatorState:
   - {fileID: 8027907976349400127}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -49894,7 +49893,7 @@ AnimatorState:
   - {fileID: 1553390398425961831}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -50060,7 +50059,7 @@ AnimatorState:
   - {fileID: 633684299642561843}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -50381,7 +50380,7 @@ AnimatorState:
   - {fileID: 8283395008866806507}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -50537,7 +50536,7 @@ AnimatorState:
   - {fileID: -1247011117093499816}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -50776,7 +50775,7 @@ AnimatorState:
   - {fileID: 7847200824005086960}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -50828,7 +50827,7 @@ AnimatorState:
   - {fileID: -8819425598162826281}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -51153,29 +51152,6 @@ BlendTree:
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
---- !u!114 &-84956682241607598
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -646210727, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trackingHead: 2
-  trackingLeftHand: 2
-  trackingRightHand: 2
-  trackingHip: 2
-  trackingLeftFoot: 2
-  trackingRightFoot: 2
-  trackingLeftFingers: 2
-  trackingRightFingers: 2
-  trackingEyes: 0
-  trackingMouth: 0
-  debugString: 
 --- !u!1102 &-84186999768510630
 AnimatorState:
   serializedVersion: 6
@@ -51193,7 +51169,7 @@ AnimatorState:
   - {fileID: 1621802981653285253}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -51356,7 +51332,7 @@ AnimatorState:
   - {fileID: -1139112090041497173}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -51385,7 +51361,7 @@ AnimatorState:
   - {fileID: -2498897697709973150}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -51414,7 +51390,7 @@ AnimatorState:
   - {fileID: 3855180287471956233}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -52065,9 +52041,9 @@ AnimatorStateMachine:
   m_EntryTransitions:
   - {fileID: 2879761939603490438}
   m_StateMachineTransitions:
-  - first: {fileID: -8759100019272663160}
-    second: []
   - first: {fileID: -3791938668790882941}
+    second: []
+  - first: {fileID: -8759100019272663160}
     second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 270, y: -150, z: 0}
@@ -52108,7 +52084,7 @@ AnimatorState:
   - {fileID: -4504441760615115511}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -52385,7 +52361,7 @@ AnimatorState:
   - {fileID: -3856867724014366893}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -52442,7 +52418,7 @@ AnimatorState:
   - {fileID: -8134330593817411617}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -52471,7 +52447,7 @@ AnimatorState:
   - {fileID: 3615601734118631877}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -53379,7 +53355,7 @@ AnimatorState:
   - {fileID: -3597474365385656214}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -53408,7 +53384,7 @@ AnimatorState:
   - {fileID: 6224036866846212466}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -53437,7 +53413,7 @@ AnimatorState:
   - {fileID: 2351248351846016817}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -53466,7 +53442,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -53591,7 +53567,7 @@ AnimatorState:
   - {fileID: -1113692008644914861}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -53696,7 +53672,7 @@ AnimatorState:
   - {fileID: 260738334456202003}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -53752,7 +53728,7 @@ AnimatorState:
   - {fileID: 2790882202935369560}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -53878,7 +53854,7 @@ AnimatorState:
   - {fileID: 123964690204475578}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -53935,7 +53911,7 @@ AnimatorState:
   - {fileID: 5566016511378212750}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -54049,7 +54025,7 @@ AnimatorState:
   - {fileID: -5760991791902037373}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -54078,7 +54054,7 @@ AnimatorState:
   - {fileID: -4700972757319409336}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -54213,7 +54189,7 @@ AnimatorState:
   - {fileID: -542644225672754024}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -54294,7 +54270,7 @@ AnimatorState:
   - {fileID: -2097996763548434224}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -54707,7 +54683,7 @@ AnimatorState:
   - {fileID: 8266270992170911111}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -54736,7 +54712,7 @@ AnimatorState:
   - {fileID: 4875249859626607050}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -54766,7 +54742,7 @@ AnimatorState:
   - {fileID: 2894154283722760037}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -55181,7 +55157,7 @@ AnimatorState:
   - {fileID: -1979955835165211249}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -55210,7 +55186,7 @@ AnimatorState:
   - {fileID: 1650329165850663090}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -55267,7 +55243,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -55296,7 +55272,7 @@ AnimatorState:
   - {fileID: -3733615948298818009}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -55427,7 +55403,7 @@ AnimatorState:
   - {fileID: -1919239960640190590}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -55512,7 +55488,7 @@ AnimatorState:
   - {fileID: -8916094730387902873}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -55769,7 +55745,7 @@ AnimatorState:
   - {fileID: -7333093381189956119}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -55933,7 +55909,7 @@ AnimatorState:
   - {fileID: -4010163916521154457}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -56189,7 +56165,7 @@ AnimatorState:
   - {fileID: -2589655980716040005}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -56434,7 +56410,7 @@ AnimatorState:
   - {fileID: 6915471285491948635}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -56552,7 +56528,7 @@ AnimatorState:
   - {fileID: 6462187970963980237}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -56905,7 +56881,7 @@ AnimatorState:
   - {fileID: -3987220481655850932}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -57237,7 +57213,7 @@ AnimatorState:
   - {fileID: -7233497546134591739}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -57266,7 +57242,7 @@ AnimatorState:
   - {fileID: -2258141107517631516}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -57625,7 +57601,7 @@ AnimatorState:
   - {fileID: -1025638985368079518}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -57713,7 +57689,7 @@ AnimatorState:
   - {fileID: 3848120672794739350}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -58043,7 +58019,7 @@ AnimatorState:
   - {fileID: -4230898652472569524}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -58134,7 +58110,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -58504,7 +58480,7 @@ AnimatorState:
   - {fileID: 6616581271969619336}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -58557,7 +58533,7 @@ AnimatorState:
   - {fileID: 1958771026743247740}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -58642,7 +58618,7 @@ AnimatorState:
   - {fileID: -13469932458324048}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -58748,7 +58724,7 @@ AnimatorState:
   - {fileID: 8131277052864881845}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -58836,7 +58812,7 @@ AnimatorState:
   - {fileID: -3118456154694501525}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -58977,7 +58953,7 @@ AnimatorState:
   - {fileID: 6444549279128101297}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -59133,7 +59109,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -59251,7 +59227,7 @@ AnimatorState:
   - {fileID: -6004879477646722767}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -59283,7 +59259,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -59371,7 +59347,7 @@ AnimatorState:
   - {fileID: 1522168993779097076}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -59400,7 +59376,7 @@ AnimatorState:
   - {fileID: -1653209817162416389}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -59456,7 +59432,7 @@ AnimatorState:
   - {fileID: -4727654732032949750}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -59485,7 +59461,7 @@ AnimatorState:
   - {fileID: -8279334722954280083}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -59553,7 +59529,7 @@ AnimatorState:
   - {fileID: 3581751300158241556}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -59610,7 +59586,7 @@ AnimatorState:
   - {fileID: 5578918306191171075}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -59665,7 +59641,7 @@ AnimatorState:
   - {fileID: 1465753422466692509}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -59698,7 +59674,7 @@ AnimatorState:
   - {fileID: -6752296197479583799}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -59727,7 +59703,7 @@ AnimatorState:
   - {fileID: 4796856640095851085}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -60023,7 +59999,7 @@ AnimatorState:
   - {fileID: 4192095487328554846}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -60180,7 +60156,7 @@ AnimatorState:
   - {fileID: -4933364013041794999}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -60209,7 +60185,7 @@ AnimatorState:
   - {fileID: 3725579807430244139}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -60321,7 +60297,7 @@ AnimatorState:
   - {fileID: 812051917071264246}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -60350,7 +60326,7 @@ AnimatorState:
   - {fileID: 4104090933236405841}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -60518,7 +60494,7 @@ AnimatorState:
   - {fileID: 2530031548801686370}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -60668,7 +60644,7 @@ AnimatorState:
   - {fileID: -4954971679615779817}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -60996,7 +60972,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -61102,7 +61078,7 @@ AnimatorState:
   - {fileID: -2705072079452073236}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -61131,7 +61107,7 @@ AnimatorState:
   - {fileID: -7120950816874326348}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -61176,7 +61152,7 @@ AnimatorState:
   - {fileID: -6929066532840205789}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -61276,11 +61252,11 @@ AnimatorStateMachine:
   m_StateMachineTransitions:
   - first: {fileID: -7921373087287456426}
     second: []
+  - first: {fileID: -113784911394188336}
+    second: []
   - first: {fileID: -7739087228145072711}
     second: []
   - first: {fileID: -3640209282610451954}
-    second: []
-  - first: {fileID: -113784911394188336}
     second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 180, y: 120, z: 0}
@@ -62030,7 +62006,7 @@ AnimatorState:
   - {fileID: 5853892047673825575}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -62176,7 +62152,7 @@ AnimatorState:
   - {fileID: -5107963574896711423}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -62205,7 +62181,7 @@ AnimatorState:
   - {fileID: -8940551802498874015}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -62234,7 +62210,7 @@ AnimatorState:
   - {fileID: 6919932533858403942}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -62656,7 +62632,7 @@ AnimatorState:
   - {fileID: -3210193268215090560}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -62864,7 +62840,7 @@ AnimatorState:
   - {fileID: -3847093601030895848}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -63195,7 +63171,7 @@ AnimatorState:
   - {fileID: 6410152409131158730}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -63575,7 +63551,7 @@ AnimatorState:
   - {fileID: 7329743748061591933}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -63665,7 +63641,7 @@ AnimatorState:
   - {fileID: -3926993736731213960}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -63721,7 +63697,7 @@ AnimatorState:
   - {fileID: 6192917563437510914}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -63750,7 +63726,7 @@ AnimatorState:
   - {fileID: 2855691057450729666}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -64000,7 +63976,7 @@ AnimatorState:
   - {fileID: 1453613148723553018}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -64029,7 +64005,7 @@ AnimatorState:
   - {fileID: -2402978341135712246}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -64116,7 +64092,7 @@ AnimatorState:
   - {fileID: -3989959530051693566}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -64387,7 +64363,7 @@ AnimatorState:
   - {fileID: 2987929977711020921}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -64430,7 +64406,7 @@ AnimatorState:
   - {fileID: -2881517638631517482}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -64846,7 +64822,7 @@ AnimatorState:
   - {fileID: 5146139060050014688}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -64927,7 +64903,7 @@ AnimatorState:
   - {fileID: 7134566610025149647}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -65170,7 +65146,7 @@ AnimatorState:
   - {fileID: 7240051028230280976}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -65360,7 +65336,7 @@ AnimatorState:
   - {fileID: -2300330423843724250}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -65389,7 +65365,7 @@ AnimatorState:
   - {fileID: -5899070942509007823}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -65467,7 +65443,7 @@ AnimatorState:
   - {fileID: -5720418840319376486}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -65556,7 +65532,7 @@ AnimatorState:
   - {fileID: 8020628823893192586}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -65644,7 +65620,7 @@ AnimatorState:
   - {fileID: 3936492574710405595}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -65723,7 +65699,7 @@ AnimatorState:
   - {fileID: -6859757950501406362}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -65779,7 +65755,7 @@ AnimatorState:
   - {fileID: -629855932926071560}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -65954,7 +65930,7 @@ AnimatorState:
   - {fileID: -4123371414329452123}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -66212,7 +66188,7 @@ AnimatorState:
   - {fileID: -8375218258956865275}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -66635,7 +66611,7 @@ AnimatorState:
   - {fileID: 4973940316825180154}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -66917,7 +66893,7 @@ AnimatorState:
   - {fileID: 3218554537511544154}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -67054,7 +67030,7 @@ AnimatorState:
   - {fileID: -7382274553324316000}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -67526,7 +67502,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -67602,7 +67578,7 @@ AnimatorState:
   - {fileID: 1926736455985047975}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -67714,7 +67690,7 @@ AnimatorState:
   - {fileID: 5137654808774990315}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -67771,7 +67747,7 @@ AnimatorState:
   - {fileID: -8212030623544611945}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -67869,7 +67845,7 @@ AnimatorState:
   - {fileID: -8056689428185940867}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -67994,7 +67970,7 @@ AnimatorState:
   - {fileID: 3229940479821420628}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -68154,7 +68130,7 @@ AnimatorState:
   - {fileID: 7767384197826964306}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -68230,7 +68206,7 @@ AnimatorState:
   - {fileID: 1231110752678733461}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -68303,7 +68279,7 @@ AnimatorState:
   - {fileID: -2312537924195377531}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -68544,7 +68520,7 @@ AnimatorState:
   - {fileID: -2317629808767281615}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -68589,7 +68565,7 @@ AnimatorState:
   - {fileID: 6890285892075819366}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -69272,7 +69248,7 @@ AnimatorState:
   - {fileID: -114426789104964}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -69328,7 +69304,7 @@ AnimatorState:
   - {fileID: -1173755326170538545}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -69685,7 +69661,7 @@ AnimatorState:
   - {fileID: -5875372237639271195}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -69940,7 +69916,7 @@ AnimatorState:
   - {fileID: -7694079275224899904}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -69986,7 +69962,7 @@ AnimatorState:
   - {fileID: 4020934508542873325}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -70093,7 +70069,7 @@ AnimatorState:
   - {fileID: 2923727809498022419}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -70149,7 +70125,7 @@ AnimatorState:
   - {fileID: 7771675460435413056}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -70227,7 +70203,7 @@ AnimatorState:
   - {fileID: 5897284074122482087}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -70384,7 +70360,7 @@ AnimatorState:
   - {fileID: -1510549016711885092}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -70548,7 +70524,7 @@ AnimatorState:
   - {fileID: 3030938731184412620}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -70710,7 +70686,7 @@ AnimatorState:
   - {fileID: 986694330436680151}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -70778,7 +70754,7 @@ AnimatorState:
   - {fileID: 6836269047891201941}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -70874,7 +70850,7 @@ AnimatorState:
   - {fileID: -2869781041901743731}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -70903,7 +70879,7 @@ AnimatorState:
   - {fileID: -366711841758790939}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -70932,7 +70908,7 @@ AnimatorState:
   - {fileID: -7509501507854538504}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -71001,7 +70977,7 @@ AnimatorState:
   - {fileID: -971312872436472486}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -71276,7 +71252,7 @@ AnimatorState:
   - {fileID: -4173021773837863863}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -71513,7 +71489,7 @@ AnimatorState:
   - {fileID: -7864823325847079793}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -71597,7 +71573,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -71745,7 +71721,7 @@ AnimatorState:
   - {fileID: 7267502301452480000}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -71929,7 +71905,7 @@ AnimatorState:
   - {fileID: -2308228473444718025}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -72168,7 +72144,7 @@ AnimatorState:
   - {fileID: 28221584146552806}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -72402,7 +72378,7 @@ AnimatorState:
   - {fileID: -4924799989024849128}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -72470,7 +72446,7 @@ AnimatorState:
   - {fileID: -3829098587665392184}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -72682,7 +72658,7 @@ AnimatorState:
   - {fileID: -6894022672572117020}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -72853,7 +72829,7 @@ AnimatorState:
   - {fileID: 251940239685739637}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -72921,7 +72897,7 @@ AnimatorState:
   - {fileID: -1608893573171950320}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -73036,7 +73012,7 @@ AnimatorState:
   - {fileID: 187665407681679433}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -73147,7 +73123,7 @@ AnimatorState:
   - {fileID: 2514848148323007491}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -73271,7 +73247,7 @@ AnimatorState:
   - {fileID: -938228584553168705}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -73428,7 +73404,7 @@ AnimatorState:
   - {fileID: 990820153120458809}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -73658,7 +73634,7 @@ AnimatorState:
   - {fileID: -6369978323541518954}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -73713,7 +73689,7 @@ AnimatorState:
   - {fileID: 3365399678100047825}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -74632,7 +74608,7 @@ AnimatorState:
   - {fileID: -8643397211167400414}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -74795,7 +74771,7 @@ AnimatorState:
   - {fileID: -6813113730167776953}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -74880,7 +74856,7 @@ AnimatorState:
   - {fileID: 4838663669510160805}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -74909,7 +74885,7 @@ AnimatorState:
   - {fileID: -5436966508880011792}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -75175,7 +75151,7 @@ AnimatorState:
   - {fileID: 4444247868587925552}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -75224,7 +75200,7 @@ AnimatorState:
   - {fileID: -3049395038162742271}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -75402,7 +75378,7 @@ AnimatorState:
   - {fileID: 249856234678877083}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -75431,7 +75407,7 @@ AnimatorState:
   - {fileID: -8669469309229071051}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -75460,7 +75436,7 @@ AnimatorState:
   - {fileID: 1056702842755860696}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -75544,7 +75520,7 @@ AnimatorState:
   - {fileID: 541221124004603521}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -75690,7 +75666,7 @@ AnimatorState:
   - {fileID: -422568647401027041}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -75720,7 +75696,7 @@ AnimatorState:
   - {fileID: -7356940488664177758}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -75862,7 +75838,7 @@ AnimatorState:
   - {fileID: 2687465323972379999}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -75952,7 +75928,7 @@ AnimatorState:
   - {fileID: 1706575147320266952}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -76001,7 +75977,7 @@ AnimatorState:
   - {fileID: -9110891703724095292}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -76102,7 +76078,7 @@ AnimatorState:
   - {fileID: 2792220432872368692}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -76131,7 +76107,7 @@ AnimatorState:
   - {fileID: 6434938487429816171}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -76160,7 +76136,7 @@ AnimatorState:
   - {fileID: 3162191814793239983}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -76678,7 +76654,7 @@ AnimatorState:
   - {fileID: -3258571296509915353}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -77141,7 +77117,7 @@ AnimatorState:
   - {fileID: 8405660659291152364}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -77438,7 +77414,7 @@ AnimatorState:
   - {fileID: 2820552918748683177}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -77589,7 +77565,7 @@ AnimatorState:
   - {fileID: -3595533338853252928}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -77757,9 +77733,9 @@ AnimatorStateMachine:
     second: []
   - first: {fileID: 4491928845022674956}
     second: []
-  - first: {fileID: 4523199013802017077}
-    second: []
   - first: {fileID: 6071041194774115271}
+    second: []
+  - first: {fileID: 4523199013802017077}
     second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 70, y: -300, z: 0}
@@ -77819,7 +77795,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -78071,7 +78047,7 @@ AnimatorState:
   - {fileID: 2073755387960979765}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -78406,7 +78382,7 @@ AnimatorState:
   - {fileID: -9142977789950328419}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -78635,7 +78611,7 @@ AnimatorState:
   - {fileID: 1155840954477656576}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -78664,7 +78640,7 @@ AnimatorState:
   - {fileID: 1456913859343296196}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -78935,7 +78911,7 @@ AnimatorState:
   - {fileID: 5271211804778098105}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -79025,7 +79001,7 @@ AnimatorState:
   - {fileID: -1676008809584844208}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -79193,7 +79169,7 @@ AnimatorState:
   - {fileID: 5433627981850294039}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -79336,7 +79312,7 @@ AnimatorState:
   - {fileID: -1261858061662839568}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -79366,7 +79342,7 @@ AnimatorState:
   - {fileID: 1446374328762286712}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -79395,7 +79371,7 @@ AnimatorState:
   - {fileID: -6588504464729611567}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -79579,7 +79555,7 @@ AnimatorState:
   - {fileID: -6720999404320901474}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -79663,7 +79639,7 @@ AnimatorState:
   - {fileID: 5920348415884117166}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -79924,7 +79900,7 @@ AnimatorState:
   - {fileID: 1985105199744411831}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -79969,7 +79945,7 @@ AnimatorState:
   - {fileID: -5995518021230122277}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -80082,7 +80058,7 @@ AnimatorState:
   - {fileID: 7501910162625661228}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -80155,7 +80131,7 @@ AnimatorState:
   - {fileID: -6013314997937537994}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -80211,7 +80187,7 @@ AnimatorState:
   - {fileID: 7047133115386433744}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -80372,7 +80348,7 @@ AnimatorState:
   - {fileID: -4763151130165952691}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -80484,7 +80460,7 @@ AnimatorState:
   - {fileID: 4657914594174062600}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -80540,7 +80516,7 @@ AnimatorState:
   - {fileID: -4446893513908437638}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -80673,7 +80649,7 @@ AnimatorState:
   - {fileID: 1481009731614300218}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -81394,7 +81370,7 @@ AnimatorState:
   - {fileID: 1050283611901225922}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -82550,7 +82526,7 @@ AnimatorState:
   - {fileID: -3097390402044690046}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -82607,7 +82583,7 @@ AnimatorState:
   - {fileID: -2773882485529998475}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -82954,7 +82930,7 @@ AnimatorState:
   - {fileID: 3463347515542819377}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -83680,7 +83656,7 @@ AnimatorState:
   - {fileID: 6135108686428663362}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -83798,7 +83774,7 @@ AnimatorState:
   - {fileID: 3113892839547104066}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -83827,7 +83803,7 @@ AnimatorState:
   - {fileID: -8511753820126711799}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -84365,7 +84341,7 @@ AnimatorState:
   - {fileID: 6048792737472859506}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -84395,7 +84371,7 @@ AnimatorState:
   - {fileID: 5370219908761697639}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -84679,7 +84655,7 @@ AnimatorState:
   - {fileID: -5290174933521963379}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -84708,7 +84684,7 @@ AnimatorState:
   - {fileID: -1582244018515590743}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -84926,7 +84902,7 @@ AnimatorState:
   - {fileID: 2126908014728336575}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -85063,7 +85039,7 @@ AnimatorState:
   - {fileID: -7188939265447079205}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -85137,7 +85113,7 @@ AnimatorState:
   - {fileID: 2199023941624717222}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -85412,7 +85388,7 @@ AnimatorState:
   - {fileID: 3712647640956173460}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -85649,7 +85625,7 @@ AnimatorState:
   - {fileID: -1215010996480234282}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -86063,7 +86039,7 @@ AnimatorState:
   - {fileID: -7463979052857833201}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -86124,7 +86100,7 @@ AnimatorState:
   - {fileID: 4877009336063753336}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -86237,7 +86213,7 @@ AnimatorState:
   - {fileID: 2546840870788523840}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -86294,7 +86270,7 @@ AnimatorState:
   - {fileID: 1617198520190612388}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -86445,7 +86421,7 @@ AnimatorState:
   - {fileID: 8562898250872696046}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -86491,7 +86467,7 @@ AnimatorState:
   - {fileID: 4324478473836248942}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -86518,7 +86494,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -86575,7 +86551,7 @@ AnimatorState:
   - {fileID: 277046075754535831}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -86829,7 +86805,7 @@ AnimatorState:
   - {fileID: -3268484330341365623}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -87097,7 +87073,7 @@ AnimatorState:
   - {fileID: 6992357834917627773}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -87287,7 +87263,7 @@ AnimatorState:
   - {fileID: -8192959439002913773}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -87316,7 +87292,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -87548,7 +87524,7 @@ AnimatorState:
   - {fileID: 2546791826211328491}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -87716,7 +87692,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -87819,7 +87795,7 @@ AnimatorState:
   - {fileID: -4779873691101200237}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -87971,7 +87947,7 @@ AnimatorState:
   - {fileID: -126297902898267403}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -88000,7 +87976,7 @@ AnimatorState:
   - {fileID: 3948179817536792}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -88045,7 +88021,7 @@ AnimatorState:
   - {fileID: -282163995108582170}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -88176,7 +88152,7 @@ AnimatorState:
   - {fileID: -395016374911720189}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -88247,7 +88223,7 @@ AnimatorState:
   - {fileID: 7595575503076455232}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -88656,7 +88632,7 @@ AnimatorState:
   - {fileID: 7868194394497206884}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -88893,7 +88869,7 @@ AnimatorState:
   - {fileID: -3235596257783920956}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -89111,7 +89087,7 @@ AnimatorState:
   - {fileID: 7952298837176744820}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -89140,7 +89116,7 @@ AnimatorState:
   - {fileID: 7894540356277211893}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -89197,7 +89173,7 @@ AnimatorState:
   - {fileID: 5309711736343787963}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -89270,7 +89246,7 @@ AnimatorState:
   - {fileID: -8379119220288911980}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -89394,7 +89370,7 @@ AnimatorState:
   - {fileID: -3827862147762050436}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -89479,7 +89455,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -89628,7 +89604,7 @@ AnimatorState:
   - {fileID: -6544866614668768749}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -89757,7 +89733,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -90210,7 +90186,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -90433,7 +90409,7 @@ AnimatorState:
   - {fileID: -4307965044358804074}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -90590,7 +90566,7 @@ AnimatorState:
   - {fileID: -9061049596332354991}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -90706,7 +90682,7 @@ AnimatorState:
   - {fileID: 8432468390194890902}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -90865,7 +90841,7 @@ AnimatorState:
   - {fileID: -7785473029010846712}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -91019,7 +90995,7 @@ AnimatorState:
   - {fileID: -1377497652137449689}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -91389,7 +91365,7 @@ AnimatorState:
   - {fileID: 2554158768869773017}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -91577,7 +91553,7 @@ AnimatorState:
   - {fileID: -4658847513760432887}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -91902,7 +91878,7 @@ AnimatorState:
   - {fileID: -490721957192948956}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -92035,7 +92011,7 @@ AnimatorState:
   - {fileID: 899274832737108394}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -92080,7 +92056,7 @@ AnimatorState:
   - {fileID: 7338897997215587246}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -92109,7 +92085,7 @@ AnimatorState:
   - {fileID: -621994304133291944}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -92547,7 +92523,7 @@ AnimatorState:
   - {fileID: -3510953009846345985}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -92601,7 +92577,7 @@ AnimatorState:
   - {fileID: -5646389090079057314}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -92723,7 +92699,7 @@ AnimatorState:
   - {fileID: -2621483282176306828}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -92813,7 +92789,7 @@ AnimatorState:
   - {fileID: -5409751943882507478}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -92894,7 +92870,7 @@ AnimatorState:
   - {fileID: 6567199936204535160}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -93158,7 +93134,7 @@ AnimatorState:
   - {fileID: -8615857443214678453}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -93582,7 +93558,7 @@ AnimatorState:
   - {fileID: 3586875014283566936}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -93967,7 +93943,7 @@ AnimatorState:
   - {fileID: 5558694019508844117}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -94438,7 +94414,7 @@ AnimatorState:
   - {fileID: 8610360374309448264}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -94824,7 +94800,7 @@ AnimatorState:
   - {fileID: -2176325769318423012}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -94884,7 +94860,7 @@ AnimatorState:
   - {fileID: 4522850936920860339}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -95056,7 +95032,7 @@ AnimatorState:
   - {fileID: -9212789309198048974}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -95472,7 +95448,7 @@ AnimatorState:
   - {fileID: 7119952334851477266}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -95501,7 +95477,7 @@ AnimatorState:
   - {fileID: -6311956125335242697}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -95530,7 +95506,7 @@ AnimatorState:
   - {fileID: 1591891844632755738}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -95659,7 +95635,7 @@ AnimatorState:
   - {fileID: 5301504668538354873}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -96218,295 +96194,295 @@ AnimatorStateMachine:
   - {fileID: 8860451966552084686}
   - {fileID: -1797695755563555389}
   m_StateMachineTransitions:
-  - first: {fileID: -9050739907233261665}
-    second: []
-  - first: {fileID: -8999661923182545558}
-    second: []
-  - first: {fileID: -8895579200227987936}
-    second: []
-  - first: {fileID: -8794075734263312415}
-    second: []
-  - first: {fileID: -8782575784166492299}
-    second: []
-  - first: {fileID: -8396728124636808043}
-    second: []
-  - first: {fileID: -8254193500280016601}
-    second: []
-  - first: {fileID: -8050455506096705017}
-    second: []
-  - first: {fileID: -8031817981763752862}
-    second: []
-  - first: {fileID: -8026779446397684043}
-    second: []
-  - first: {fileID: -7980236412612644173}
-    second: []
-  - first: {fileID: -7739217668281066031}
-    second: []
-  - first: {fileID: -7738271737745218366}
-    second: []
-  - first: {fileID: -7669168955338324425}
-    second: []
-  - first: {fileID: -7666866270916304978}
-    second: []
-  - first: {fileID: -7489540870009440747}
-    second: []
-  - first: {fileID: -7428733603096044757}
-    second: []
-  - first: {fileID: -7287000694909706845}
-    second: []
-  - first: {fileID: -7262993054781321668}
-    second: []
-  - first: {fileID: -7176302019815472431}
+  - first: {fileID: -3902548943386404526}
     second: []
   - first: {fileID: -6683923462480645349}
     second: []
-  - first: {fileID: -6668708877948515576}
+  - first: {fileID: 7318523215442522976}
     second: []
-  - first: {fileID: -6519142469879784884}
+  - first: {fileID: 5405963995392152253}
     second: []
-  - first: {fileID: -6351692127526991572}
+  - first: {fileID: -3240294119697596916}
+    second: []
+  - first: {fileID: -2086967856935747551}
+    second: []
+  - first: {fileID: 1850235730867603849}
+    second: []
+  - first: {fileID: -9050739907233261665}
+    second: []
+  - first: {fileID: -3476794017146442940}
+    second: []
+  - first: {fileID: -2530125242901732701}
     second: []
   - first: {fileID: -6350096148583534998}
     second: []
-  - first: {fileID: -6139675708975579825}
+  - first: {fileID: 1340978198782484741}
     second: []
-  - first: {fileID: -6132574887153224351}
+  - first: {fileID: -4179456047219095877}
     second: []
-  - first: {fileID: -5932241828725440496}
+  - first: {fileID: 855522290645482584}
     second: []
-  - first: {fileID: -5863318862954706537}
+  - first: {fileID: -7980236412612644173}
+    second: []
+  - first: {fileID: 5214348640939992033}
+    second: []
+  - first: {fileID: -665459616940496305}
+    second: []
+  - first: {fileID: 717461510106841384}
+    second: []
+  - first: {fileID: 3736555044208221519}
+    second: []
+  - first: {fileID: -8396728124636808043}
+    second: []
+  - first: {fileID: -7262993054781321668}
+    second: []
+  - first: {fileID: 5443585254926671364}
+    second: []
+  - first: {fileID: -7489540870009440747}
+    second: []
+  - first: {fileID: 4469148941888148922}
+    second: []
+  - first: {fileID: -421704704724910670}
+    second: []
+  - first: {fileID: 6999772051174087433}
+    second: []
+  - first: {fileID: 5542223568287951547}
+    second: []
+  - first: {fileID: -4382057522790619790}
+    second: []
+  - first: {fileID: -2088146110065391303}
+    second: []
+  - first: {fileID: 7232014008909568184}
+    second: []
+  - first: {fileID: 1276968953087933717}
+    second: []
+  - first: {fileID: 1400652324655539719}
+    second: []
+  - first: {fileID: 6701789269346260412}
+    second: []
+  - first: {fileID: -1771225094456758777}
+    second: []
+  - first: {fileID: 470860645793678215}
+    second: []
+  - first: {fileID: 7845913946710116172}
+    second: []
+  - first: {fileID: -3960611117735990975}
+    second: []
+  - first: {fileID: 3780249946244083317}
+    second: []
+  - first: {fileID: -2331771270081642395}
+    second: []
+  - first: {fileID: 6935088734855035261}
+    second: []
+  - first: {fileID: -2592283926657033397}
     second: []
   - first: {fileID: -5762499427187614164}
     second: []
   - first: {fileID: -5754848563138318962}
     second: []
-  - first: {fileID: -5675490985435094182}
-    second: []
-  - first: {fileID: -5445256054826401251}
-    second: []
-  - first: {fileID: -5384677460846819851}
-    second: []
-  - first: {fileID: -5368918058172923078}
-    second: []
-  - first: {fileID: -5356431018348557074}
-    second: []
-  - first: {fileID: -5199900267806753050}
-    second: []
-  - first: {fileID: -5187567323463543426}
-    second: []
-  - first: {fileID: -5104560389927725179}
-    second: []
   - first: {fileID: -4742916917052021233}
     second: []
-  - first: {fileID: -4696306756865031579}
-    second: []
-  - first: {fileID: -4382057522790619790}
-    second: []
-  - first: {fileID: -4276042032414881055}
-    second: []
-  - first: {fileID: -4236441608665781282}
-    second: []
-  - first: {fileID: -4179456047219095877}
-    second: []
-  - first: {fileID: -3983965803454826083}
-    second: []
-  - first: {fileID: -3960611117735990975}
-    second: []
-  - first: {fileID: -3902548943386404526}
-    second: []
-  - first: {fileID: -3817985630687487710}
-    second: []
-  - first: {fileID: -3762972781279325989}
-    second: []
-  - first: {fileID: -3690714732478969379}
-    second: []
-  - first: {fileID: -3649637206898492669}
-    second: []
-  - first: {fileID: -3476794017146442940}
-    second: []
-  - first: {fileID: -3389018913234297940}
-    second: []
-  - first: {fileID: -3380468030323242617}
-    second: []
-  - first: {fileID: -3240294119697596916}
-    second: []
-  - first: {fileID: -2922858027939274610}
-    second: []
-  - first: {fileID: -2835709502807071923}
-    second: []
-  - first: {fileID: -2833902968234244591}
-    second: []
-  - first: {fileID: -2592283926657033397}
-    second: []
-  - first: {fileID: -2530125242901732701}
-    second: []
-  - first: {fileID: -2351016208038042459}
-    second: []
-  - first: {fileID: -2331771270081642395}
-    second: []
-  - first: {fileID: -2088146110065391303}
-    second: []
-  - first: {fileID: -2086967856935747551}
-    second: []
-  - first: {fileID: -1978518058339501766}
-    second: []
-  - first: {fileID: -1775449649501700147}
-    second: []
-  - first: {fileID: -1771225094456758777}
-    second: []
-  - first: {fileID: -1648007666896567089}
-    second: []
-  - first: {fileID: -1622454446838267598}
-    second: []
-  - first: {fileID: -1441848050732527180}
-    second: []
-  - first: {fileID: -1398286922527679861}
-    second: []
-  - first: {fileID: -1303291865249621936}
-    second: []
-  - first: {fileID: -1299709816769632896}
-    second: []
-  - first: {fileID: -1055366534111742428}
-    second: []
-  - first: {fileID: -736834320207588019}
-    second: []
-  - first: {fileID: -665459616940496305}
-    second: []
-  - first: {fileID: -443125269446252867}
-    second: []
-  - first: {fileID: -421704704724910670}
-    second: []
-  - first: {fileID: -260847198682502413}
-    second: []
-  - first: {fileID: -180912056963440462}
-    second: []
-  - first: {fileID: 310063547561551874}
-    second: []
-  - first: {fileID: 470860645793678215}
-    second: []
-  - first: {fileID: 615922211363401121}
-    second: []
-  - first: {fileID: 624096637529798903}
-    second: []
-  - first: {fileID: 717461510106841384}
-    second: []
-  - first: {fileID: 773651053726203108}
-    second: []
-  - first: {fileID: 850491964814452148}
-    second: []
-  - first: {fileID: 855522290645482584}
-    second: []
-  - first: {fileID: 861002783687335689}
-    second: []
-  - first: {fileID: 1045087006170983873}
-    second: []
-  - first: {fileID: 1276968953087933717}
-    second: []
-  - first: {fileID: 1340978198782484741}
-    second: []
-  - first: {fileID: 1384227253186172329}
-    second: []
-  - first: {fileID: 1400652324655539719}
-    second: []
-  - first: {fileID: 1813502307032323244}
-    second: []
-  - first: {fileID: 1850235730867603849}
-    second: []
-  - first: {fileID: 2213248585804720086}
-    second: []
-  - first: {fileID: 2274752521816508549}
-    second: []
-  - first: {fileID: 2483140633086885779}
-    second: []
-  - first: {fileID: 2564793714126139022}
+  - first: {fileID: 3384086156820794269}
     second: []
   - first: {fileID: 2594220753836979721}
     second: []
   - first: {fileID: 2800467797791391519}
     second: []
-  - first: {fileID: 2934800977193969616}
+  - first: {fileID: 615922211363401121}
     second: []
-  - first: {fileID: 3017993656686261127}
+  - first: {fileID: -2351016208038042459}
     second: []
-  - first: {fileID: 3137656519610187606}
-    second: []
-  - first: {fileID: 3228136193940169055}
-    second: []
-  - first: {fileID: 3384086156820794269}
-    second: []
-  - first: {fileID: 3586799265326786995}
-    second: []
-  - first: {fileID: 3619726725046927368}
-    second: []
-  - first: {fileID: 3736555044208221519}
-    second: []
-  - first: {fileID: 3780249946244083317}
-    second: []
-  - first: {fileID: 4469148941888148922}
+  - first: {fileID: -5863318862954706537}
     second: []
   - first: {fileID: 4486156789727713612}
     second: []
-  - first: {fileID: 4621016021509561100}
+  - first: {fileID: -1299709816769632896}
     second: []
-  - first: {fileID: 4731915126115261707}
+  - first: {fileID: -8031817981763752862}
     second: []
-  - first: {fileID: 5214348640939992033}
+  - first: {fileID: -1775449649501700147}
     second: []
-  - first: {fileID: 5257892764500375596}
+  - first: {fileID: -1441848050732527180}
     second: []
-  - first: {fileID: 5397987569880396698}
+  - first: {fileID: 310063547561551874}
     second: []
-  - first: {fileID: 5405963995392152253}
-    second: []
-  - first: {fileID: 5443585254926671364}
-    second: []
-  - first: {fileID: 5542223568287951547}
-    second: []
-  - first: {fileID: 5879194207090283412}
-    second: []
-  - first: {fileID: 6069016764455215365}
-    second: []
-  - first: {fileID: 6122150790783184754}
-    second: []
-  - first: {fileID: 6290970239313628526}
-    second: []
-  - first: {fileID: 6320808804376436320}
-    second: []
-  - first: {fileID: 6360317494005673808}
-    second: []
-  - first: {fileID: 6379318020482037379}
-    second: []
-  - first: {fileID: 6457736849189798532}
-    second: []
-  - first: {fileID: 6488510183828880065}
-    second: []
-  - first: {fileID: 6701789269346260412}
-    second: []
-  - first: {fileID: 6935088734855035261}
-    second: []
-  - first: {fileID: 6999772051174087433}
-    second: []
-  - first: {fileID: 7177181637819800663}
-    second: []
-  - first: {fileID: 7226129471139282402}
-    second: []
-  - first: {fileID: 7232014008909568184}
-    second: []
-  - first: {fileID: 7318523215442522976}
+  - first: {fileID: 1384227253186172329}
     second: []
   - first: {fileID: 7362320299875954087}
     second: []
-  - first: {fileID: 7499504067716570140}
+  - first: {fileID: 3137656519610187606}
+    second: []
+  - first: {fileID: 2564793714126139022}
+    second: []
+  - first: {fileID: -8794075734263312415}
+    second: []
+  - first: {fileID: -3649637206898492669}
+    second: []
+  - first: {fileID: 850491964814452148}
+    second: []
+  - first: {fileID: -443125269446252867}
+    second: []
+  - first: {fileID: -6668708877948515576}
+    second: []
+  - first: {fileID: -1648007666896567089}
+    second: []
+  - first: {fileID: -8254193500280016601}
     second: []
   - first: {fileID: 7554419340119990326}
     second: []
-  - first: {fileID: 7845913946710116172}
+  - first: {fileID: 5397987569880396698}
     second: []
-  - first: {fileID: 7902436315214306531}
+  - first: {fileID: -1622454446838267598}
+    second: []
+  - first: {fileID: -1055366534111742428}
+    second: []
+  - first: {fileID: -4696306756865031579}
+    second: []
+  - first: {fileID: -6132574887153224351}
+    second: []
+  - first: {fileID: 3586799265326786995}
+    second: []
+  - first: {fileID: -180912056963440462}
+    second: []
+  - first: {fileID: -1303291865249621936}
+    second: []
+  - first: {fileID: -7739217668281066031}
+    second: []
+  - first: {fileID: 6122150790783184754}
+    second: []
+  - first: {fileID: -8895579200227987936}
+    second: []
+  - first: {fileID: -8782575784166492299}
+    second: []
+  - first: {fileID: -5445256054826401251}
+    second: []
+  - first: {fileID: -5675490985435094182}
+    second: []
+  - first: {fileID: -5187567323463543426}
+    second: []
+  - first: {fileID: 2213248585804720086}
+    second: []
+  - first: {fileID: -7669168955338324425}
+    second: []
+  - first: {fileID: -8999661923182545558}
+    second: []
+  - first: {fileID: 6320808804376436320}
+    second: []
+  - first: {fileID: 2274752521816508549}
+    second: []
+  - first: {fileID: 9202355122731015827}
+    second: []
+  - first: {fileID: -7287000694909706845}
+    second: []
+  - first: {fileID: -260847198682502413}
+    second: []
+  - first: {fileID: 1813502307032323244}
+    second: []
+  - first: {fileID: -4276042032414881055}
+    second: []
+  - first: {fileID: -736834320207588019}
+    second: []
+  - first: {fileID: -8026779446397684043}
+    second: []
+  - first: {fileID: 861002783687335689}
+    second: []
+  - first: {fileID: -5384677460846819851}
+    second: []
+  - first: {fileID: 7226129471139282402}
+    second: []
+  - first: {fileID: 7177181637819800663}
+    second: []
+  - first: {fileID: -6139675708975579825}
+    second: []
+  - first: {fileID: -4236441608665781282}
+    second: []
+  - first: {fileID: -1978518058339501766}
+    second: []
+  - first: {fileID: 6290970239313628526}
+    second: []
+  - first: {fileID: -7738271737745218366}
+    second: []
+  - first: {fileID: -3817985630687487710}
+    second: []
+  - first: {fileID: 773651053726203108}
+    second: []
+  - first: {fileID: -3690714732478969379}
+    second: []
+  - first: {fileID: -6519142469879784884}
     second: []
   - first: {fileID: 7930028770084172294}
     second: []
-  - first: {fileID: 9202355122731015827}
+  - first: {fileID: -2835709502807071923}
+    second: []
+  - first: {fileID: 6360317494005673808}
+    second: []
+  - first: {fileID: 3017993656686261127}
+    second: []
+  - first: {fileID: -6351692127526991572}
+    second: []
+  - first: {fileID: 6379318020482037379}
+    second: []
+  - first: {fileID: -1398286922527679861}
+    second: []
+  - first: {fileID: 6457736849189798532}
+    second: []
+  - first: {fileID: 7902436315214306531}
+    second: []
+  - first: {fileID: -3389018913234297940}
+    second: []
+  - first: {fileID: 624096637529798903}
+    second: []
+  - first: {fileID: -3762972781279325989}
+    second: []
+  - first: {fileID: 7499504067716570140}
+    second: []
+  - first: {fileID: 4621016021509561100}
+    second: []
+  - first: {fileID: 6488510183828880065}
+    second: []
+  - first: {fileID: 2483140633086885779}
+    second: []
+  - first: {fileID: 1045087006170983873}
+    second: []
+  - first: {fileID: -5199900267806753050}
+    second: []
+  - first: {fileID: 4731915126115261707}
+    second: []
+  - first: {fileID: -5932241828725440496}
+    second: []
+  - first: {fileID: 6069016764455215365}
+    second: []
+  - first: {fileID: -3983965803454826083}
+    second: []
+  - first: {fileID: 5257892764500375596}
+    second: []
+  - first: {fileID: 5879194207090283412}
+    second: []
+  - first: {fileID: -5104560389927725179}
+    second: []
+  - first: {fileID: -7666866270916304978}
+    second: []
+  - first: {fileID: -8050455506096705017}
+    second: []
+  - first: {fileID: 3619726725046927368}
+    second: []
+  - first: {fileID: -3380468030323242617}
+    second: []
+  - first: {fileID: -2922858027939274610}
+    second: []
+  - first: {fileID: -7428733603096044757}
+    second: []
+  - first: {fileID: 3228136193940169055}
+    second: []
+  - first: {fileID: -7176302019815472431}
+    second: []
+  - first: {fileID: 2934800977193969616}
+    second: []
+  - first: {fileID: -5368918058172923078}
+    second: []
+  - first: {fileID: -2833902968234244591}
+    second: []
+  - first: {fileID: -5356431018348557074}
     second: []
   m_StateMachineBehaviours:
   - {fileID: 1847661071242460989}
@@ -96573,7 +96549,7 @@ AnimatorState:
   - {fileID: 94822357052955266}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -96865,7 +96841,7 @@ AnimatorState:
   - {fileID: -4092924857067329231}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -97054,7 +97030,7 @@ AnimatorState:
   - {fileID: 918937726738247901}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -97304,7 +97280,7 @@ AnimatorState:
   - {fileID: -290292934659595080}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -97516,7 +97492,7 @@ AnimatorState:
   - {fileID: -2531059433119979884}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -97747,7 +97723,7 @@ AnimatorState:
   - {fileID: 3147357145845910071}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -97842,7 +97818,7 @@ AnimatorState:
   - {fileID: 1873998762113933543}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -97871,7 +97847,7 @@ AnimatorState:
   - {fileID: 7209753131236599837}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -98034,7 +98010,7 @@ AnimatorState:
   - {fileID: -6641608155160067265}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -98423,7 +98399,7 @@ AnimatorState:
   - {fileID: -2265190272749972666}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -98990,7 +98966,7 @@ AnimatorState:
   - {fileID: -7534051158647233970}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -99226,7 +99202,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -99359,7 +99335,7 @@ AnimatorState:
   - {fileID: 7170727094139461003}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -99430,7 +99406,7 @@ AnimatorState:
   - {fileID: 3091832922169296764}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -99891,7 +99867,7 @@ AnimatorState:
   - {fileID: -2795288677995317483}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -100003,7 +99979,7 @@ AnimatorState:
   - {fileID: -3665267116245039276}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -100049,7 +100025,7 @@ AnimatorState:
   - {fileID: -695107992154215004}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -100377,7 +100353,7 @@ AnimatorState:
   - {fileID: 3933025417366829590}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -100526,7 +100502,7 @@ AnimatorState:
   - {fileID: -4840771417657423151}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -100930,7 +100906,7 @@ AnimatorState:
   - {fileID: -3975274201858831208}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -101018,7 +100994,7 @@ AnimatorState:
   - {fileID: 8044881319146092346}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -101103,7 +101079,7 @@ AnimatorState:
   - {fileID: 6425065982996108781}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -101132,7 +101108,7 @@ AnimatorState:
   - {fileID: 2548518171228221161}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 1
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
@@ -101163,7 +101139,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
