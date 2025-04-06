@@ -6429,21 +6429,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GogoLoco All (Modular Avatar)
       objectReference: {fileID: 0}
-    - target: {fileID: 3208265933197728548, guid: 31efcad13e4f6ac4399998015a775266,
-        type: 3}
-      propertyPath: mergeAnimatorMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3208265933197728570, guid: 31efcad13e4f6ac4399998015a775266,
-        type: 3}
-      propertyPath: mergeAnimatorMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3208265933197728571, guid: 31efcad13e4f6ac4399998015a775266,
-        type: 3}
-      propertyPath: mergeAnimatorMode
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

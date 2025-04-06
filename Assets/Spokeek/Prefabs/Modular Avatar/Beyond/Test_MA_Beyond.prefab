@@ -6387,7 +6387,7 @@ PrefabInstance:
     - target: {fileID: 3208265932446308087, guid: 5487723afa654af4bb93a908b2aa5a1d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.037652373
+      value: -0.037652493
       objectReference: {fileID: 0}
     - target: {fileID: 3208265932446308087, guid: 5487723afa654af4bb93a908b2aa5a1d,
         type: 3}
@@ -6458,21 +6458,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GogoLoco Beyond (Modular Avatar)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3208265933197728548, guid: 5487723afa654af4bb93a908b2aa5a1d,
-        type: 3}
-      propertyPath: mergeAnimatorMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3208265933197728570, guid: 5487723afa654af4bb93a908b2aa5a1d,
-        type: 3}
-      propertyPath: mergeAnimatorMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3208265933197728571, guid: 5487723afa654af4bb93a908b2aa5a1d,
-        type: 3}
-      propertyPath: mergeAnimatorMode
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7536717217903041439, guid: 5487723afa654af4bb93a908b2aa5a1d,
         type: 3}
