@@ -8,6 +8,11 @@ public class GoGoLocoMenu : EditorWindow
 {
     const string GOGOLOCO_PATH = "Packages/gogoloco/Runtime/GoGo/GoLoco";
 
+    const string GOGOLOCO_BEYOND_VRCFURY_PATH = GOGOLOCO_PATH + "/Prefabs/VRCFury/GogoLoco Beyond (VRCFury).prefab";
+    const string GOGOLOCO_ALL_VRCFURY_PATH = GOGOLOCO_PATH + "/Prefabs/VRCFury/GogoLoco All (VRCFury).prefab";
+    const string GOGOLOCO_BEYOND_MA_PATH = GOGOLOCO_PATH + "/Prefabs/Modular Avatar/GogoLoco Beyond (Modular Avatar).prefab";
+    const string GOGOLOCO_ALL_MA_PATH = GOGOLOCO_PATH + "/Prefabs/Modular Avatar/GogoLoco All (Modular Avatar).prefab";
+
     private GameObject avatarTarget;
 
     private GameObject gogolocoBeyondVRCFuryPrefab;
@@ -36,11 +41,11 @@ public class GoGoLocoMenu : EditorWindow
     {
         headerImage = AssetDatabase.LoadAssetAtPath<Texture2D>(GOGOLOCO_PATH + "/Icons/icon_Go_Loco.png");
 
-        gogolocoBeyondVRCFuryPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(GOGOLOCO_PATH + "/Prefabs/VRCFury/GogoLoco Beyond (VRCFury).prefab");
-        gogolocoAllVRCFuryPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(GOGOLOCO_PATH + "/Prefabs/VRCFury/GogoLoco All (VRCFury).prefab");
+        gogolocoBeyondVRCFuryPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(GOGOLOCO_BEYOND_VRCFURY_PATH);
+        gogolocoAllVRCFuryPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(GOGOLOCO_ALL_VRCFURY_PATH);
 
-        gogolocoBeyondMAPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(GOGOLOCO_PATH + "/Prefabs/Modular Avatar/GogoLoco Beyond (Modular Avatar).prefab");
-        gogolocoAllMAPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(GOGOLOCO_PATH + "/Prefabs/Modular Avatar/GogoLoco All (Modular Avatar).prefab");
+        gogolocoBeyondMAPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(GOGOLOCO_BEYOND_MA_PATH);
+        gogolocoAllMAPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(GOGOLOCO_ALL_MA_PATH);
 
         avatarTarget = Selection.activeGameObject;
     }
@@ -90,14 +95,11 @@ public class GoGoLocoMenu : EditorWindow
         GUILayout.Label("VRCFury Prefabs");
         if (GUILayout.Button("Add GoGoLoco All"))
         {
-            //childObject.transform.IsChildOf(parentObject.transform)
-            GameObject instantiatedPrefab = PrefabUtility.InstantiatePrefab(gogolocoAllVRCFuryPrefab) as GameObject;
-            instantiatedPrefab.transform.SetParent(avatarTarget.transform);
+            AddPrefabToAvatar(gogolocoAllVRCFuryPrefab, avatarTarget, "Add GoGoLoco All (VRCFury)");
         }
         if (GUILayout.Button("Add GoGoLoco Beyond"))
         {
-            GameObject instantiatedPrefab = PrefabUtility.InstantiatePrefab(gogolocoBeyondVRCFuryPrefab) as GameObject;
-            instantiatedPrefab.transform.SetParent(avatarTarget.transform);
+            AddPrefabToAvatar(gogolocoBeyondVRCFuryPrefab, avatarTarget, "Add GoGoLoco Beyond (VRCFury)");
         }
         GUILayout.EndVertical();
 
@@ -105,20 +107,103 @@ public class GoGoLocoMenu : EditorWindow
         GUILayout.Label("Modular Avatar Prefabs");
         if (GUILayout.Button("Add GoGoLoco All"))
         {
-            GameObject instantiatedPrefab = PrefabUtility.InstantiatePrefab(gogolocoAllMAPrefab) as GameObject;
-            instantiatedPrefab.transform.SetParent(avatarTarget.transform);
+            AddPrefabToAvatar(gogolocoAllMAPrefab, avatarTarget, "Add GoGoLoco All (Modular Avatar)");
         }
         if (GUILayout.Button("Add GoGoLoco Beyond"))
         {
-            GameObject instantiatedPrefab = PrefabUtility.InstantiatePrefab(gogolocoBeyondMAPrefab) as GameObject;
-            instantiatedPrefab.transform.SetParent(avatarTarget.transform);
+            AddPrefabToAvatar(gogolocoBeyondMAPrefab, avatarTarget, "Add GoGoLoco Beyond (Modular Avatar)");
         }
         GUILayout.EndVertical();
 
         GUILayout.EndHorizontal();
         GUI.enabled = true;
     }
+
+    /*
+    Instantiate the given prefab under the target avatar, register undo, mark the avatar dirty, and ping the new object in the Hierarchy.
+    This is important to ensure the Scene knows it's been modified.
+    */
+    private static void AddPrefabToAvatar(GameObject prefab, GameObject avatar, string undoLabel)
+    {
+        if (prefab == null || avatar == null) return;
+
+        GameObject instantiatedPrefab = PrefabUtility.InstantiatePrefab(prefab) as GameObject;
+        instantiatedPrefab.transform.SetParent(avatar.transform, false);
+
+        Undo.RegisterCreatedObjectUndo(instantiatedPrefab, undoLabel);
+        EditorUtility.SetDirty(avatar);
+
+        Selection.activeObject = instantiatedPrefab;
+        EditorGUIUtility.PingObject(instantiatedPrefab);
+    }
+
+    /*
+    Option to apply prefab from GameObject/GoGoLoco MenuItem
+    */
+    private static void AddPrefabFromMenu(string prefabPath, string undoLabel)
+    {
+        GameObject selectedObject = Selection.activeGameObject;
+
+        if (selectedObject == null || selectedObject.GetComponent<VRCAvatarDescriptor>() == null)
+        {
+            EditorUtility.DisplayDialog("Error", "Please first select a VRChat Avatar in the current Scene, then try again. Make sure it has the VRC Avatar Descriptor Component on it.", "OK");
+            return;
+        }
+
+        GameObject prefab = AssetDatabase.LoadAssetAtPath<GameObject>(prefabPath);
+
+        if (prefab == null)
+        {
+            EditorUtility.DisplayDialog("Error", "Could not load the GoGoLoco prefab at path: " + prefabPath, "OK");
+            return;
+        }
+
+        AddPrefabToAvatar(prefab, selectedObject, undoLabel);
+    }
+
+    private static bool ValidateSelectedAvatar()
+    {
+        GameObject selectedObject = Selection.activeGameObject;
+        return selectedObject != null && selectedObject.GetComponent<VRCAvatarDescriptor>() != null;
+    }
+
+    // VRCFury
+    [MenuItem("GameObject/GoGoLoco/Add GoGoLoco All (VRCFury)", false, 10)]
+    public static void AddGoGoLocoAllVRCFuryMenu()
+    {
+        AddPrefabFromMenu(GOGOLOCO_ALL_VRCFURY_PATH, "Add GoGoLoco All (VRCFury)");
+    }
+
+    [MenuItem("GameObject/GoGoLoco/Add GoGoLoco All (VRCFury)", true)]
+    public static bool ValidateAddGoGoLocoAllVRCFuryMenu() => ValidateSelectedAvatar();
+
+    [MenuItem("GameObject/GoGoLoco/Add GoGoLoco Beyond (VRCFury)", false, 10)]
+    public static void AddGoGoLocoBeyondVRCFuryMenu()
+    {
+        AddPrefabFromMenu(GOGOLOCO_BEYOND_VRCFURY_PATH, "Add GoGoLoco Beyond (VRCFury)");
+    }
+
+    [MenuItem("GameObject/GoGoLoco/Add GoGoLoco Beyond (VRCFury)", true)]
+    public static bool ValidateAddGoGoLocoBeyondVRCFuryMenu() => ValidateSelectedAvatar();
+
+    // Modular Avatar
+    [MenuItem("GameObject/GoGoLoco/Add GoGoLoco All (Modular Avatar)", false, 10)]
+    public static void AddGoGoLocoAllMAMenu()
+    {
+        AddPrefabFromMenu(GOGOLOCO_ALL_MA_PATH, "Add GoGoLoco All (Modular Avatar)");
+    }
+
+    [MenuItem("GameObject/GoGoLoco/Add GoGoLoco All (Modular Avatar)", true)]
+    public static bool ValidateAddGoGoLocoAllMAMenu() => ValidateSelectedAvatar();
+
+    [MenuItem("GameObject/GoGoLoco/Add GoGoLoco Beyond (Modular Avatar)", false, 10)]
+    public static void AddGoGoLocoBeyondMAMenu()
+    {
+        AddPrefabFromMenu(GOGOLOCO_BEYOND_MA_PATH, "Add GoGoLoco Beyond (Modular Avatar)");
+    }
+
+    [MenuItem("GameObject/GoGoLoco/Add GoGoLoco Beyond (Modular Avatar)", true)]
+    public static bool ValidateAddGoGoLocoBeyondMAMenu() => ValidateSelectedAvatar();
 }
 
 #endif
-
