@@ -92,12 +92,12 @@ public class GoGoLocoMenu : EditorWindow
         {
             //childObject.transform.IsChildOf(parentObject.transform)
             GameObject instantiatedPrefab = PrefabUtility.InstantiatePrefab(gogolocoAllVRCFuryPrefab) as GameObject;
-            instantiatedPrefab.transform.SetParent(avatarTarget.transform);
+            instantiatedPrefab.transform.SetParent(avatarTarget.transform, false);
         }
         if (GUILayout.Button("Add GoGoLoco Beyond"))
         {
             GameObject instantiatedPrefab = PrefabUtility.InstantiatePrefab(gogolocoBeyondVRCFuryPrefab) as GameObject;
-            instantiatedPrefab.transform.SetParent(avatarTarget.transform);
+            instantiatedPrefab.transform.SetParent(avatarTarget.transform, false);
         }
         GUILayout.EndVertical();
 
@@ -106,12 +106,12 @@ public class GoGoLocoMenu : EditorWindow
         if (GUILayout.Button("Add GoGoLoco All"))
         {
             GameObject instantiatedPrefab = PrefabUtility.InstantiatePrefab(gogolocoAllMAPrefab) as GameObject;
-            instantiatedPrefab.transform.SetParent(avatarTarget.transform);
+            instantiatedPrefab.transform.SetParent(avatarTarget.transform, false);
         }
         if (GUILayout.Button("Add GoGoLoco Beyond"))
         {
             GameObject instantiatedPrefab = PrefabUtility.InstantiatePrefab(gogolocoBeyondMAPrefab) as GameObject;
-            instantiatedPrefab.transform.SetParent(avatarTarget.transform);
+            instantiatedPrefab.transform.SetParent(avatarTarget.transform, false);
         }
         GUILayout.EndVertical();
 
